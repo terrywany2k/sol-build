@@ -1,0 +1,2100 @@
+{
+  "meta": {
+    "epoch": "J2000-TT",
+    "frame": "ecliptic_J2000",
+    "units": {
+      "angles": "deg",
+      "rates": "deg/century",
+      "rates_arcsec": "arcsec/century",
+      "a": "AU",
+      "period": "days"
+    },
+    "notes": "Physical constants hard-coded in JS; this file is data-only.",
+    "validate": false,
+    "diagnostics": false,
+    "debug": false
+  },
+  "corrections": {
+    "encke_kick": {
+      "enable": false,
+      "mode": "off",
+      "integrator": {
+        "substep_days": 0.05,
+        "max_jump_days": 60,
+        "softening_AU": 0.000001
+      },
+      "apply_to": [
+        { "name": "Mercury", "enable": false },
+        { "name": "Venus",   "enable": false },
+        { "name": "Earth",   "enable": false },
+        { "name": "Mars",    "enable": false }
+      ],
+      "perturbers": [
+        { "name": "Mercury", "mu_AU3_day2": 4.912500194800128e-11, "enable": true },
+        { "name": "Venus",   "mu_AU3_day2": 7.243452332644117e-10, "enable": true },
+        { "name": "Earth",   "mu_AU3_day2": 8.887692446706597e-10, "enable": true },
+        { "name": "Mars",    "mu_AU3_day2": 9.549548340132644e-11, "enable": true },
+        { "name": "Jupiter", "mu_AU3_day2": 2.824760919377648e-7,  "enable": true },
+        { "name": "Saturn",  "mu_AU3_day2": 8.457614821118802e-8,  "enable": true },
+        { "name": "Uranus",  "mu_AU3_day2": 1.29189495100716e-8,   "enable": true },
+        { "name": "Neptune", "mu_AU3_day2": 1.524040704548216e-8,  "enable": true }
+      ]
+    },
+    "secular_terms": {
+      "enable": true,
+      "epoch": {
+        "JD_TDB": 2451545
+      },
+      "units": {
+        "angles": "deg",
+        "rates": "deg_per_century"
+      },
+      "apply_to": [
+        {
+          "name": "Mercury",
+          "enable": true,
+          "rates": {
+            "Omega_dot": -0.1239722222222222,
+            "i_dot": -0.006530555555555556,
+            "omega_dot": 0.2832972222222223,
+            "varpi_dot": 0.159325,
+            "lambda_dot": -0.122685829352558797
+          },
+          "segments": [
+            {
+              "start": "1900-01-01",
+              "stop":  "2300-01-01",
+              "rates": {
+                "lambda_dot": -0.122685829352558797
+              }
+            },
+            {
+              "start": "2300-01-01",
+              "stop":  "2350-01-01",
+              "rates": {
+                "phase_bias_deg": -0.1,
+                "lambda_dot": -0.122685829352558797
+              }
+            },
+            {
+              "start": "2350-01-01",
+              "stop":  "2390-01-01",
+              "rates": {
+                "phase_bias_deg": -0.08,
+                "lambda_dot": -0.126485829352558797
+              }
+            },
+            {
+              "start": "2390-01-01",
+              "stop":  "2400-01-01",
+              "rates": {
+                "phase_bias_deg": -0.2,
+                "lambda_dot": -0.11
+              }
+            },
+            {
+              "start": "2400-01-01",
+              "stop":  "2415-01-01",
+              "rates": {
+                "phase_bias_deg": -0.1,
+                "lambda_dot": -0.11
+              }
+            },
+            {
+              "start": "2415-01-01",
+              "stop":  "2425-01-01",
+              "rates": {
+                "phase_bias_deg": -0.22,
+                "lambda_dot": -0.1228
+              }
+            },
+            {
+              "start": "2425-01-01",
+              "stop":  "2430-01-01",
+              "rates": {
+                "phase_bias_deg": -0.1,
+                "lambda_dot": -0.124485829352558797
+              }
+            },
+            {
+              "start": "2430-01-01",
+              "stop":  "2600-01-01",
+              "rates": {
+                "phase_bias_deg": -0.22,
+                "lambda_dot": -0.1226
+              }
+            }
+          ]
+        },
+        {
+          "name": "Venus",
+          "enable": false,
+          "rates": {
+            "Omega_dot": -0.2769138888888889,
+            "i_dot": -0.0007944444444444444,
+            "omega_dot": 0.2466916666666667,
+            "varpi_dot": -0.03022222222222222,
+            "lambda_dot": -0.00182807801440276332
+          }
+        },
+        {
+          "name": "Earth",
+          "enable": true,
+          "rates": {
+            "Omega_dot": 0,
+            "i_dot": 0,
+            "omega_dot": 0.3179526,
+            "varpi_dot": 0.3179526,
+            "lambda_dot": -0.335500295419274215
+          }
+        },
+        {
+          "name": "Mars",
+          "enable": true,
+          "rates": {
+            "Omega_dot": -0.2833861111111111,
+            "i_dot": -0.007075,
+            "omega_dot": 0.7169361111111111,
+            "varpi_dot": 0.43355,
+            "lambda_dot": -0.454522317751
+          },
+          "segments": [
+            {
+              "start": "1900-01-01",
+              "stop":  "2350-01-01",
+              "rates": {
+                "lambda_dot": -0.454522317751
+              }
+            },
+            {
+              "start": "2350-01-01",
+              "stop":  "2380-01-01",
+              "rates": {
+                "phase_bias_deg": 0,
+                "lambda_dot": -0.452522317751
+              }
+            },
+            {
+              "start": "2380-01-01",
+              "stop":  "2450-01-01",
+              "rates": {
+                "lambda_dot": -0.43422317751
+              }
+            },
+            {
+              "start": "2450-01-01",
+              "stop":  "2500-01-01",
+              "rates": {
+                "lambda_dot": -0.416522317751
+              }
+            },
+            {
+              "start": "2500-01-01",
+              "stop":  "2550-01-01",
+              "rates": {
+                "lambda_dot": -0.44522317751
+              }
+            },
+            {
+              "start": "2550-01-01",
+              "stop":  "2585-01-01",
+              "rates": {
+                "phase_bias_deg": 0,
+                "lambda_dot": -0.458522317751
+              }
+            },
+            {
+              "start": "2585-01-01",
+              "stop":  "2600-01-01",
+              "rates": {
+                "lambda_dot": -0.455522317751
+              }
+            }
+          ]
+        },
+        {
+          "name": "Jupiter",
+          "enable": true,
+          "rates": {
+            "Omega_dot": 0.206875,
+            "i_dot": -0.001811111111111111,
+            "omega_dot": 0.00773611111111111,
+            "varpi_dot": 0.2146111111111111,
+            "lambda_dot": -0.1812239036541538329
+          }
+        },
+        {
+          "name": "Saturn",
+          "enable": true,
+          "rates": {
+            "Omega_dot": -0.2873138888888889,
+            "i_dot": 0.0019416666666666668,
+            "omega_dot": -0.12784444444444445,
+            "varpi_dot": -0.41515833333333335,
+            "lambda_dot":  0.461832195027
+          }
+        },
+        {
+          "name": "Uranus",
+          "enable": true,
+          "rates": {
+            "Omega_dot": 0.04228888888888889,
+            "i_dot": -0.0024027777777777776,
+            "omega_dot": 0.3675888888888889,
+            "varpi_dot": 0.4098777777777778,
+            "lambda_dot": 0.642
+          },
+          "segments": [
+            {
+              "start": "1900-01-01",
+              "stop":  "2000-01-01",
+              "rates": {
+                "lambda_dot": 0,
+                "phase_bias_deg": -0.0444
+              }
+            },
+            {
+              "start": "2000-01-01",
+              "stop":  "2050-01-01",
+              "rates": {
+                "lambda_dot": -0.9938,
+                "phase_bias_deg": -0.0444
+              },
+              "note":  "fit decade grid 2000–2040"
+            },
+            {
+              "start": "2050-01-01",
+              "stop":  "2100-01-01",
+              "rates": { "lambda_dot": -0.9239 }
+            },
+            {
+              "start": "2100-01-01",
+              "stop":  "2150-01-01",
+              "rates": { "lambda_dot": -0.5039 }
+            },
+            {
+              "start": "2150-01-01",
+              "stop":  "2200-01-01",
+              "rates": { "lambda_dot": -0.5039 }
+            },
+            {
+              "start": "2200-01-01",
+              "stop":  "2250-01-01",
+              "rates": { "lambda_dot": -0.45 }
+            },
+            {
+              "start": "2250-01-01",
+              "stop":  "2300-01-01",
+              "rates": { "lambda_dot": -0.42 }
+            }
+          ]
+        },
+        {
+          "name": "Neptune",
+          "enable": true,
+          "rates": {
+            "Omega_dot": -0.005119444444444445,
+            "i_dot": 0.0003541666666666667,
+            "omega_dot": -0.3178194444444445,
+            "varpi_dot": -0.3229388888888889,
+            "lambda_dot": 0.3003870160864993255
+          }
+        }
+      ],
+      "compose": {
+        "apply_order": [
+          "Omega",
+          "i",
+          "omega",
+          "M",
+          "lambda",
+          "varpi",
+          "a"
+        ],
+        "clamp_e_to": [
+          0,
+          0.999999999
+        ],
+        "clamp_i_to_deg": [
+          0,
+          180
+        ]
+      },
+      "diagnostics": {
+        "hudBadge": "SEC",
+        "showRates": false
+      }
+    },
+    "periodic_terms": {
+      "enable": true,
+      "epoch": {
+        "JD_TDB": 2451545
+      },
+      "units": {
+        "angles": "deg",
+        "freq": "deg_per_day",
+        "amp": "deg"
+      },
+      "apply_to": [
+        {
+          "name": "Mercury",
+          "enable": true,
+          "targets": {
+            "lambda": [
+              {
+                "amp": 23.43948236795056,
+                "freq": 4.0923344368,
+                "phase": 174.7947016552,
+                "label": "Classical_Equation_of_Center",
+                "enable": true
+              },
+              {
+                "amp": 3.02,
+                "freq": 8.1846688736,
+                "phase": 349.5894033104,
+                "label": "Classical_Equation_of_Center",
+                "enable": true
+              },
+              {
+                "amp": 0.539729113710826,
+                "freq": 12.2770033104,
+                "phase": 524.3841049656,
+                "label": "Classical_Equation_of_Center",
+                "enable": true
+              }
+            ],
+            "varpi": [
+              {
+                "amp": 0.002044444444,
+                "freq": 0.166210165829,
+                "phase": 270.64,
+                "label": "DE432_Stark2015_omega_term1",
+                "enable": true
+              },
+              {
+                "amp": 0.001269444444,
+                "freq": 0.8879,
+                "phase": 38.38,
+                "label": "DE432_Stark2015_omega_term2",
+                "enable": true
+              }
+            ]
+          }
+        },
+        {
+          "name": "Venus",
+          "enable": true,
+          "targets": {
+            "lambda": [
+              {
+                "amp": 0.776124178814315,
+                "freq": 1.6021302244,
+                "phase": 50.4083953366,
+                "label": "Classical_Equation_of_Center",
+                "enable": true
+              },
+              {
+                "amp": 0.003285449503838736,
+                "freq": 3.2042604488,
+                "phase": 100.8167906732,
+                "label": "Classical_Equation_of_Center",
+                "enable": true
+              },
+              {
+                "amp": 0.000019285369557566,
+                "freq": 4.8063906732,
+                "phase": 151.2251860098,
+                "label": "Classical_Equation_of_Center",
+                "enable": true
+              }
+            ],
+            "varpi": []
+          }
+        },
+        {
+          "name": "Earth",
+          "enable": true,
+          "targets": {
+            "lambda": [
+              {
+                "amp": 1.914643538607028,
+                "freq": 0.9856002585,
+                "phase": 357.52540038775,
+                "label": "Classical_Equation_of_Center",
+                "enable": true
+              },
+              {
+                "amp": 0.019995559625854,
+                "freq": 1.971200517,
+                "phase": 715.0508007755,
+                "label": "Classical_Equation_of_Center",
+                "enable": true
+              },
+              {
+                "amp": 0.000289558365016611,
+                "freq": 2.9568007755,
+                "phase": 1072.57620116325,
+                "label": "Classical_Equation_of_Center",
+                "enable": true
+              }
+            ],
+            "varpi": []
+          }
+        },
+        {
+          "name": "Mars",
+          "enable": true,
+          "targets": {
+            "lambda": [
+              {
+                "amp": 10.691751825374494,
+                "freq": 0.5240207766,
+                "phase": 19.3881311649,
+                "label": "Classical_Equation_of_Center",
+                "enable": true
+              },
+              {
+                "amp": 0.624845857524505,
+                "freq": 1.0480415532,
+                "phase": 38.7762623298,
+                "label": "Classical_Equation_of_Center",
+                "enable": true
+              },
+              {
+                "amp": 0.050581897012466,
+                "freq": 1.5720623298,
+                "phase": 58.1643934947,
+                "label": "Classical_Equation_of_Center",
+                "enable": true
+              }
+            ],
+            "varpi": [
+              {
+                "amp": 0.0003,
+                "freq": 0.5240207766,
+                "phase": 210,
+                "label": "Mars_varpi_shortperiod_n",
+                "enable": true
+              },
+              {
+                "amp": 0.0002,
+                "freq": 0.083105082915,
+                "phase": 120,
+                "label": "Mars_varpi_shortperiod_Jupiter",
+                "enable": true
+              },
+              {
+                "amp": 0.0001,
+                "freq": 0.166210165829,
+                "phase": 45,
+                "label": "Mars_varpi_shortperiod_2Jupiter",
+                "enable": true
+              }
+            ]
+          }
+        },
+        {
+          "name": "Moon",
+          "enable": true,
+          "targets": {
+            "lambda": [
+              { "amp": 6.2890,  "freq": 13.0649929517, "phase": 134.96340251, "label": "sin(M') - equation of center" },
+              { "amp": 1.2740,  "freq": 11.3165052795, "phase": 100.73698843, "label": "sin(2D-M') - evection" },
+              { "amp": 0.6580,  "freq": 24.3814982312, "phase": 235.70039094, "label": "sin(2D) - variation" },
+              { "amp": 0.2130,  "freq": 26.1299859034, "phase": 269.92680502, "label": "sin(2M')" },
+              { "amp": -0.1850, "freq": 0.9856002817,  "phase": 357.52910918, "label": "sin(M_sun) - annual equation" },
+              { "amp": -0.1140, "freq": 26.4587004804, "phase": 186.54418124, "label": "sin(2F) - parallactic inequality" },
+              { "amp": 0.0590,  "freq": 9.5715123279,  "phase": 66.51057437,  "label": "sin(2D-2M')" },
+              { "amp": 0.0570,  "freq": 10.330905,     "phase": 458.26657913, "label": "sin(2D-M_sun-M')" },
+              { "amp": 0.0530,  "freq": 25.2557420669, "phase": 370.66379343, "label": "sin(2D+M')" },
+              { "amp": 0.0460,  "freq": 23.3958979494, "phase": 101.73728176, "label": "sin(2D-M_sun)" },
+              { "amp": -0.0350, "freq": 12.1907491156, "phase": 297.85019547, "label": "sin(D)" },
+              { "amp": -0.0310, "freq": 14.0505932334, "phase": 492.49251169, "label": "sin(M_sun+M')" },
+              { "amp": 0.0080,  "freq": 39.1949788551, "phase": 404.89020753, "label": "sin(3M')" }
+            ],
+            "varpi": []
+          }
+        }
+      ],
+      "compose": {
+        "sum_rule": "angle += Σ A·sin(ω t + φ)",
+        "apply_order": [
+          "lambda",
+          "varpi"
+        ],
+        "clamp_after": true
+      },
+      "diagnostics": {
+        "hudBadge": "PER",
+        "perTermToggle": true
+      }
+    }
+  },
+  "j2": {
+    "enableJ2": true,
+    "central": {
+      "name": "Sun",
+      "J2": 2.2e-07,
+      "R_equatorial_km": 695700
+    },
+    "bodies": [
+      {
+        "name": "Mercury",
+        "flags": { "enableJ2": true },
+        "Omega_j2_dot_deg_per_century": -7.290273492740923e-06,
+        "omega_j2_dot_deg_per_century": 1.4542494796699204e-05
+      },
+      {
+        "name": "Venus",
+        "flags": { "enableJ2": true },
+        "Omega_j2_dot_deg_per_century": -7.494085998973879e-07,
+        "omega_j2_dot_deg_per_century": 1.4937253975199346e-06
+      },
+      {
+        "name": "Earth",
+        "flags": { "enableJ2": true },
+        "Omega_j2_dot_deg_per_century": -2.3993852584890977e-07,
+        "omega_j2_dot_deg_per_century": 4.7411435360775336e-07
+      },
+      {
+        "name": "Mars",
+        "flags": { "enableJ2": true },
+        "Omega_j2_dot_deg_per_century": -5.606393871550639e-08,
+        "omega_j2_dot_deg_per_century": 1.1131029440915231e-07
+      },
+      {
+        "name": "Jupiter",
+        "flags": { "enableJ2": true },
+        "Omega_j2_dot_deg_per_century": -7.520322735711448e-10,
+        "omega_j2_dot_deg_per_century": 1.49132261211982e-09
+      },
+      {
+        "name": "Saturn",
+        "flags": { "enableJ2": true },
+        "Omega_j2_dot_deg_per_century": -9.04009902322787e-11,
+        "omega_j2_dot_deg_per_century": 1.7955091988463987e-10
+      },
+      {
+        "name": "Uranus",
+        "flags": { "enableJ2": true },
+        "Omega_j2_dot_deg_per_century": -7.791514560264067e-12,
+        "omega_j2_dot_deg_per_century": 1.5433639629672832e-11
+      },
+      {
+        "name": "Neptune",
+        "flags": { "enableJ2": true },
+        "Omega_j2_dot_deg_per_century": -1.614824215775112e-12,
+        "omega_j2_dot_deg_per_century": 3.1991445980491005e-12
+      }
+    ]
+  },
+  "sun": {
+    "name": "Sun",
+    "type": "star",
+    "radius_km": 695700,
+    "axial_tilt_deg": 7.25,
+    "texture_hint": "2k_sun.jpg",
+    "frame": "ecliptic_J2000",
+    "spin": {
+      "RA_deg": 286.13,
+      "Dec_deg": 63.87,
+      "i_sun_to_ecliptic_deg": 7.25,
+      "Omega_sun_node_deg": 75.76,
+      "J_kg_m2_per_s": {
+        "value": 1.9e+41,
+        "uncertainty": 1.5e+39,
+        "source": "Pijpers 1998 (helioseismology)"
+      },
+      "rotation_period_days": {
+        "value": 25.38,
+        "definition": "sidereal (Carrington ~26°)",
+        "source": "NASA NSSDCA"
+      }
+    },
+    "note": "Central reference body for heliocentric elements; placed at origin with no heliocentric orbit. Axial tilt is Sun’s obliquity to the ecliptic at J2000.",
+    "sources": [
+      "NASA NSSDCA Sun Fact Sheet",
+      "IAU WGCCRE / JSOC Carrington elements",
+      "Pijpers 1998; Yang 2006; Iorio 2012"
+    ]
+  },
+  "bodies": [
+    {
+      "name": "Mercury",
+      "type": "planet",
+      "primary": "Sun",
+      "a_AU": 0.38709927,
+      "e": 0.20563593,
+      "i_deg": 7.00497902,
+      "Omega_deg": 48.33076593,
+      "omega_deg": 29.12703035,
+      "M_deg": 174.79252722,
+      "period_days": 87.9692564419,
+      "retrograde": false,
+      "radius_km": 2439.7,
+      "axial_tilt_deg": 0.034,
+      "texture_hint": "2k_mercury.jpg",
+      "sidereal_day_hours": 1407.5,
+      "secular": {
+        "Omega_dot_deg_per_century": -0.12534081,
+        "i_dot_deg_per_century": -0.00594749,
+        "omega_dot_deg_per_century": 0.2858177,
+        "M_dot_deg_per_century": 149472.51363486
+      },
+      "gr": {
+        "omega_gr_dot_deg_per_century": 0.011938861111111112,
+        "omega_gr_dot_arcsec_per_century": 42.9799
+      },
+      "lt": {
+        "cos_iS": 0.998259515006,
+        "Omega_LT_deg_per_century": 2.80335152323966e-07,
+        "Omega_LT_arcsec_per_century": 0.0010092065483662776,
+        "omega_LT_deg_per_century": -8.39542649126716e-07,
+        "omega_LT_arcsec_per_century": -0.0030223535368561778
+      },
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html",
+      "pole_RA_deg": 281.0103,
+      "pole_RA_rate_deg_per_century": -0.0328,
+      "pole_Dec_deg": 61.4155,
+      "pole_Dec_rate_deg_per_century": -0.0049,
+      "W0_deg": 329.5988,
+      "Wdot_deg_per_day": 6.1385108,
+      "spin_direction": "prograde",
+      "radii_km": {
+        "a": 2440.53,
+        "b": 2440.53,
+        "c": 2438.26
+      },
+      "frame": "IAU ICRF/J2000 (from NAIF PCK)",
+      "sidereal_day_hours_from_Wdot": 1407.5075016565909
+    },
+    {
+      "name": "Venus",
+      "type": "planet",
+      "primary": "Sun",
+      "a_AU": 0.72333566,
+      "e": 0.00677672,
+      "i_deg": 3.39467605,
+      "Omega_deg": 76.67984255,
+      "omega_deg": 54.92262463,
+      "M_deg": 50.37663232,
+      "period_days": 224.7008011659,
+      "retrograde": true,
+      "radius_km": 6051.8,
+      "axial_tilt_deg": 177.36,
+      "sidereal_day_hours": 5832.5,
+      "texture_hint": "2k_venus_surface.jpg",
+      "texture_atmosphere": "2k_venus_atmosphere.jpg",
+      "atmo_sidereal_day_hours": -96,
+      "secular": {
+        "Omega_dot_deg_per_century": -0.27769418,
+        "i_dot_deg_per_century": -0.0007889,
+        "omega_dot_deg_per_century": 0.28037747,
+        "M_dot_deg_per_century": 58517.812704
+      },
+      "gr": {
+        "omega_gr_dot_deg_per_century": 0.002395758333333333,
+        "omega_gr_dot_arcsec_per_century": 8.62473
+      },
+      "lt": {
+        "cos_iS": 0.996433512213,
+        "Omega_LT_deg_per_century": 4.02724978506867e-08,
+        "Omega_LT_arcsec_per_century": 0.000144981,
+        "omega_LT_deg_per_century": -1.20543968434076e-07,
+        "omega_LT_arcsec_per_century": -0.000433958
+      },
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html",
+      "pole_RA_deg": 272.76,
+      "pole_RA_rate_deg_per_century": 0.0,
+      "pole_Dec_deg": 67.16,
+      "pole_Dec_rate_deg_per_century": 0.0,
+      "W0_deg": 160.2,
+      "Wdot_deg_per_day": -1.4813688,
+      "spin_direction": "retrograde",
+      "radii_km": {
+        "a": 6051.8,
+        "b": 6051.8,
+        "c": 6051.8
+      },
+      "frame": "IAU ICRF/J2000 (from NAIF PCK)",
+      "sidereal_day_hours_from_Wdot": 5832.443615661407
+    },
+    {
+      "name": "Earth",
+      "type": "planet",
+      "primary": "Sun",
+      "a_AU": 1.00000261,
+      "e": 0.01671123,
+      "i_deg": -1.531e-05,
+      "Omega_deg": 0,
+      "omega_deg": 102.93768193,
+      "M_deg": 357.52688973,
+      "period_days": 365.2563671306,
+      "retrograde": false,
+      "radius_km": 6371,
+      "axial_tilt_deg": 23.439,
+      "sidereal_day_hours": 23.934,
+      "spin_phase_deg": 0,
+      "texture_hint": "8k_earth_daymap.jpg",
+      "texture_nightmap": "8k_earth_nightmap.jpg",
+      "texture_normal_map": "8k_earth_normal_map.png",
+      "texture_specular_map": "8k_earth_specular_map.png",
+      "texture_atmosphere": "8k_earth_clouds.jpg",
+      "atmo_spin_factor": 1.3,
+      "secular": {
+        "Omega_dot_deg_per_century": 0,
+        "i_dot_deg_per_century": -0.01294668,
+        "omega_dot_deg_per_century": 0.32327364,
+        "M_dot_deg_per_century": 35999.04917617
+      },
+      "gr": {
+        "omega_gr_dot_deg_per_century": 0.0010663,
+        "omega_gr_dot_arcsec_per_century": 3.83868
+      },
+      "lt": {
+        "cos_iS": 0.992001151496,
+        "Omega_LT_deg_per_century": 1.524684772474e-08,
+        "Omega_LT_arcsec_per_century": 5.488865180905e-05,
+        "omega_LT_deg_per_century": -4.537467149889e-08,
+        "omega_LT_arcsec_per_century": -0.000163348817396
+      },
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "pole_RA_deg": 0.0,
+      "pole_RA_rate_deg_per_century": -0.641,
+      "pole_Dec_deg": 90.0,
+      "pole_Dec_rate_deg_per_century": -0.557,
+      "W0_deg": 190.147,
+      "Wdot_deg_per_day": 360.9856235,
+      "spin_direction": "prograde",
+      "radii_km": {
+        "a": 6378.1366,
+        "b": 6378.1366,
+        "c": 6356.7519
+      },
+      "frame": "IAU ICRF/J2000 (from NAIF PCK)",
+      "sidereal_day_hours_from_Wdot": 23.93447117430703
+    },
+    {
+      "name": "Mars",
+      "type": "planet",
+      "primary": "Sun",
+      "a_AU": 1.52371034,
+      "e": 0.0933941,
+      "i_deg": 1.84969142,
+      "Omega_deg": 49.55953891,
+      "omega_deg": 286.537,
+      "M_deg": 19.412,
+      "period_days": 686.98,
+      "retrograde": false,
+      "radius_km": 3389.5,
+      "axial_tilt_deg": 25.19,
+      "sidereal_day_hours": 24.623,
+      "texture_hint": "2k_mars.jpg",
+      "secular": {
+        "Omega_dot_deg_per_century": -0.29257343,
+        "i_dot_deg_per_century": -0.00813131,
+        "omega_dot_deg_per_century": 0.73698431,
+        "M_dot_deg_per_century": 19139.85827411
+      },
+      "gr": {
+        "omega_gr_dot_deg_per_century": 0.00010209444444444445,
+        "omega_gr_dot_arcsec_per_century": 0.36754000000000003
+      },
+      "lt": {
+        "cos_iS": 0.995141714862,
+        "Omega_LT_deg_per_century": 4.365574869554e-09,
+        "Omega_LT_arcsec_per_century": 1.57160695304e-05,
+        "omega_LT_deg_per_century": -1.303309698614e-08,
+        "omega_LT_arcsec_per_century": -4.691914915009e-05
+      },
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+      "pole_RA_deg": 317.269202,
+      "pole_RA_rate_deg_per_century": -0.10927547,
+      "pole_Dec_deg": 54.432516,
+      "pole_Dec_rate_deg_per_century": -0.05827105,
+      "W0_deg": 176.049863,
+      "Wdot_deg_per_day": 350.891982443297,
+      "spin_direction": "prograde",
+      "radii_km": {
+        "a": 3396.19,
+        "b": 3396.19,
+        "c": 3376.2
+      },
+      "frame": "IAU ICRF/J2000 (from NAIF PCK)",
+      "sidereal_day_hours_from_Wdot": 24.622962143046955
+    },
+    {
+      "name": "Jupiter",
+      "type": "planet",
+      "primary": "Sun",
+      "a_AU": 5.202887,
+      "e": 0.04838624,
+      "i_deg": 1.30439695,
+      "Omega_deg": 100.47390909,
+      "omega_deg": 274.25457074,
+      "M_deg": 19.66796068,
+      "period_days": 4332.8171275232,
+      "retrograde": false,
+      "radius_km": 69911,
+      "axial_tilt_deg": 3.12,
+      "sidereal_day_hours": 9.925,
+      "texture_hint": "2k_jupiter.jpg",
+      "secular": {
+        "Omega_dot_deg_per_century": 0.20469106,
+        "i_dot_deg_per_century": -0.00183714,
+        "omega_dot_deg_per_century": 0.00783562,
+        "M_dot_deg_per_century": 3034.53360107
+      },
+      "gr": {
+        "omega_gr_dot_deg_per_century": 1.73119e-05,
+        "omega_gr_dot_arcsec_per_century": 0.06232284
+      },
+      "lt": {
+        "cos_iS": 0.995141714862,
+        "Omega_LT_deg_per_century": 4.365574869554e-09,
+        "Omega_LT_arcsec_per_century": 1.57160695304e-05,
+        "omega_LT_deg_per_century": -1.303309698614e-08,
+        "omega_LT_arcsec_per_century": -4.691914915009e-05
+      },
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html",
+      "pole_RA_deg": 268.056595,
+      "pole_RA_rate_deg_per_century": -0.006499,
+      "pole_Dec_deg": 64.495303,
+      "pole_Dec_rate_deg_per_century": 0.002413,
+      "W0_deg": 284.95,
+      "Wdot_deg_per_day": 870.536,
+      "spin_direction": "prograde",
+      "radii_km": {
+        "a": 71492.0,
+        "b": 71492.0,
+        "c": 66854.0
+      },
+      "frame": "IAU ICRF/J2000 (from NAIF PCK)",
+      "sidereal_day_hours_from_Wdot": 9.924919819513496
+    },
+    {
+      "name": "Saturn",
+      "type": "planet",
+      "primary": "Sun",
+      "a_AU": 9.53667594,
+      "e": 0.05386179,
+      "i_deg": 2.48599187,
+      "Omega_deg": 113.66242448,
+      "omega_deg": 338.93645383,
+      "M_deg": 317.35536592,
+      "period_days": 10755.8843361331,
+      "retrograde": false,
+      "radius_km": 58232,
+      "axial_tilt_deg": 26.73,
+      "sidereal_day_hours": 10.656,
+      "texture_hint": "2k_saturn.jpg",
+      "texture_ring": "2k_saturn_ring_alpha.png",
+      "ring_texture_mode": "strip",
+      "secular": {
+        "Omega_dot_deg_per_century": -0.28867794,
+        "i_dot_deg_per_century": 0.00193609,
+        "omega_dot_deg_per_century": -0.13029422,
+        "M_dot_deg_per_century": 1222.91259417
+      },
+      "gr": {
+        "omega_gr_dot_deg_per_century": 3.8063e-06,
+        "omega_gr_dot_arcsec_per_century": 0.0137027
+      },
+      "lt": {
+        "cos_iS": 0.994354218141,
+        "Omega_LT_deg_per_century": 1.085608586181e-10,
+        "Omega_LT_arcsec_per_century": 3.908190910252e-07,
+        "omega_LT_deg_per_century": -3.238438430758e-10,
+        "omega_LT_arcsec_per_century": -1.165837835073e-06
+      },
+      "sources": [
+        "NASA NSSDCA Saturn Fact Sheet",
+        "Standish (2010) JPL/SSD",
+        "LRR / GR",
+        "LT from Sun spin"
+      ],
+      "pole_RA_deg": 40.589,
+      "pole_RA_rate_deg_per_century": -0.036,
+      "pole_Dec_deg": 83.537,
+      "pole_Dec_rate_deg_per_century": -0.004,
+      "W0_deg": 38.9,
+      "Wdot_deg_per_day": 810.7939024,
+      "spin_direction": "prograde",
+      "radii_km": {
+        "a": 60268.0,
+        "b": 60268.0,
+        "c": 54364.0
+      },
+      "frame": "IAU ICRF/J2000 (from NAIF PCK)",
+      "sidereal_day_hours_from_Wdot": 10.656222221732387
+    },
+    {
+      "name": "Uranus",
+      "type": "planet",
+      "primary": "Sun",
+      "a_AU": 19.19126393,
+      "e": 0.04716771,
+      "i_deg": 0.76986,
+      "Omega_deg": 74.01692503,
+      "omega_deg": 96.998857,
+      "M_deg": 142.59,
+      "period_days": 30688.5,
+      "retrograde": false,
+      "radius_km": 25362,
+      "axial_tilt_deg": 97.77,
+      "sidereal_day_hours": 17.24,
+      "texture_hint": "2k_uranus.jpg",
+      "texture_ring": "2k_uranus_rings.png",
+      "ring_texture_mode": "strip",
+      "secular": {
+        "Omega_dot_deg_per_century": 0.04240589,
+        "i_dot_deg_per_century": -0.00242939,
+        "omega_dot_deg_per_century": 0.36564692,
+        "M_dot_deg_per_century": 428.07397504
+      },
+      "gr": {
+        "omega_gr_dot_deg_per_century": null,
+        "omega_gr_dot_arcsec_per_century": null
+      },
+      "lt": {
+        "cos_iS": 0.99360702354,
+        "Omega_LT_deg_per_century": 2.163408246418e-12,
+        "Omega_LT_arcsec_per_century": 7.788269687103e-09,
+        "omega_LT_deg_per_century": -6.448732885277e-12,
+        "omega_LT_arcsec_per_century": -2.3215438387e-08
+      },
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html",
+      "pole_RA_deg": 257.311,
+      "pole_RA_rate_deg_per_century": 0.0,
+      "pole_Dec_deg": -15.175,
+      "pole_Dec_rate_deg_per_century": 0.0,
+      "W0_deg": 203.81,
+      "Wdot_deg_per_day": -501.1600928,
+      "spin_direction": "retrograde",
+      "radii_km": {
+        "a": 25559.0,
+        "b": 25559.0,
+        "c": 24973.0
+      },
+      "frame": "IAU ICRF/J2000 (from NAIF PCK)",
+      "sidereal_day_hours_from_Wdot": 17.240000000255407
+    },
+    {
+      "name": "Neptune",
+      "type": "planet",
+      "primary": "Sun",
+      "a_AU": 30.06992276,
+      "e": 0.00859048,
+      "i_deg": 1.77004347,
+      "Omega_deg": 131.78422574,
+      "omega_deg": 273.18053653,
+      "M_deg": 259.91520804,
+      "period_days": 60189.6590162779,
+      "retrograde": false,
+      "radius_km": 24622,
+      "axial_tilt_deg": 28.32,
+      "sidereal_day_hours": 16.11,
+      "texture_hint": "2k_neptune.jpg",
+      "texture_ring": "2k_neptune_ring_alpha.png",
+      "secular": {
+        "Omega_dot_deg_per_century": -0.00508664,
+        "i_dot_deg_per_century": 0.00035372,
+        "omega_dot_deg_per_century": -0.317328,
+        "M_dot_deg_per_century": 218.78186789
+      },
+      "gr": {
+        "omega_gr_dot_deg_per_century": null,
+        "omega_gr_dot_arcsec_per_century": null
+      },
+      "lt": {
+        "cos_iS": 0.993709969594,
+        "Omega_LT_deg_per_century": 5.606488415934e-13,
+        "Omega_LT_arcsec_per_century": 2.018335829736e-09,
+        "omega_LT_deg_per_century": -1.671367029998e-12,
+        "omega_LT_arcsec_per_century": -6.016921307993e-09
+      },
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html",
+      "pole_RA_deg": 299.36,
+      "pole_RA_rate_deg_per_century": 0.0,
+      "pole_Dec_deg": 43.46,
+      "pole_Dec_rate_deg_per_century": 0.0,
+      "W0_deg": 249.978,
+      "Wdot_deg_per_day": 541.1397757,
+      "spin_direction": "prograde",
+      "radii_km": {
+        "a": 24764.0,
+        "b": 24764.0,
+        "c": 24341.0
+      },
+      "frame": "IAU ICRF/J2000 (from NAIF PCK)",
+      "sidereal_day_hours_from_Wdot": 15.966299998597572
+    },
+    {
+      "name": "Moon",
+      "type": "moon",
+      "primary": "Earth",
+      "a_km": 381874.5248499887,
+      "e": 0.06314721685094304,
+      "i_deg": 5.240273000309245,
+      "Omega_deg": 123.9580554371928,
+      "omega_deg": 308.9226727206595,
+      "M_deg": 146.6732747774804,
+      "period_days": 27.321661,
+      "retrograde": false,
+      "radius_km": 1737.4,
+      "axial_tilt_deg": null,
+      "sidereal_day_hours": 655.728,
+      "spin_phase_deg": 0,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_moon.jpg",
+      "note": "Angles Ω, ω, and M at J2000 available from JPL HORIZONS/SSD; most fact sheets list a, e, i and period only.",
+      "source": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Earth)"
+      ],
+      "n_deg_per_day": 13.1763584944561
+    },
+    {
+      "name": "Phobos",
+      "type": "moon",
+      "primary": "Mars",
+      "a_km": 9378.610328444505,
+      "e": 0.01469841851969655,
+      "i_deg": 26.05670195883539,
+      "Omega_deg": 84.81514244056581,
+      "omega_deg": 342.7848642391356,
+      "M_deg": 189.8224342278868,
+      "period_days": 0.3191597103826501,
+      "retrograde": false,
+      "radius_km": 11.266,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_phobos.jpg",
+      "note": "Angles to be taken from JPL SSD Planetary Satellite Mean Elements (J2000).",
+      "source": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Mars)"
+      ],
+      "n_deg_per_day": 1127.961920909081
+    },
+    {
+      "name": "Deimos",
+      "type": "moon",
+      "primary": "Mars",
+      "a_km": 23458.182511613548,
+      "e": 0.0003299624878237082,
+      "i_deg": 27.56936980386812,
+      "Omega_deg": 83.66926662588133,
+      "omega_deg": 211.8947925261645,
+      "M_deg": 5.093950813525924,
+      "period_days": 1.262530472708875,
+      "retrograde": false,
+      "radius_km": 6.2,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_deimos.jpg",
+      "note": "Angles to be taken from JPL SSD Planetary Satellite Mean Elements (J2000).",
+      "source": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Mars)"
+      ],
+      "n_deg_per_day": 285.1416324451852
+    },
+    {
+      "name": "Amalthea",
+      "type": "moon",
+      "primary": "Jupiter",
+      "a_km": 181996.73401666284,
+      "e": 0.006131496682479541,
+      "i_deg": 2.442089133637652,
+      "Omega_deg": 330.4106584847095,
+      "omega_deg": 105.1175845531084,
+      "M_deg": 336.2664083066824,
+      "period_days": 0.5016447757055735,
+      "retrograde": false,
+      "radius_km": 83.5,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "Amalthea.jpg",
+      "note": "Angles L0, Ω, ϖ at J2000 available from JPL SSD; derive M=L0−ϖ and ω=ϖ−Ω.",
+      "source": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Jupiter)"
+      ],
+      "n_deg_per_day": 717.6392886652766
+    },
+    {
+      "name": "Io",
+      "type": "moon",
+      "primary": "Jupiter",
+      "a_km": 422036.4314844596,
+      "e": 0.004715688921345897,
+      "i_deg": 2.212617763556377,
+      "Omega_deg": 336.8524452085695,
+      "omega_deg": 66.16488500283468,
+      "M_deg": 335.153206478952,
+      "period_days": 1.7713957574375163,
+      "retrograde": false,
+      "radius_km": 1821.6,
+      "axial_tilt_deg": null,
+      "sidereal_day_hours": 42.5,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_io.jpg",
+      "note": "JPL SSD mean elements at J2000 provide Ω≈43.977°, ϖ≈128.106° (ω≈84.129°), L0≈171.016°; compute M=L0−ϖ. Use official table.",
+      "source": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Jupiter)"
+      ],
+      "n_deg_per_day": 203.2295710817172
+    },
+    {
+      "name": "Europa",
+      "type": "moon",
+      "primary": "Jupiter",
+      "a_km": 671248.4976902213,
+      "e": 0.009812823575576082,
+      "i_deg": 1.790971209716447,
+      "Omega_deg": 332.6287323572119,
+      "omega_deg": 254.6471423731226,
+      "M_deg": 345.411036769848,
+      "period_days": 3.553206130669636,
+      "retrograde": false,
+      "radius_km": 1560.8,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_europa.jpg",
+      "note": "Use JPL SSD Planetary Satellite Mean Elements (J2000) for Ω, ω, M.",
+      "source": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Jupiter)"
+      ],
+      "n_deg_per_day": 101.3169477820738
+    },
+    {
+      "name": "Ganymede",
+      "type": "moon",
+      "primary": "Jupiter",
+      "a_km": 1070497.481019323,
+      "e": 0.001457215292672099,
+      "i_deg": 2.214148041848081,
+      "Omega_deg": 343.1728455275238,
+      "omega_deg": 319.8078127226449,
+      "M_deg": 277.0487684461206,
+      "period_days": 7.155869785747254,
+      "retrograde": false,
+      "radius_km": 2634.1,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_ganymede.jpg",
+      "note": "Use JPL SSD Planetary Satellite Mean Elements (J2000) for Ω, ω, M.",
+      "source": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Jupiter)"
+      ],
+      "n_deg_per_day": 50.30834975743021
+    },
+    {
+      "name": "Callisto",
+      "type": "moon",
+      "primary": "Jupiter",
+      "a_km": 1882772.953875105,
+      "e": 0.007439434600948234,
+      "i_deg": 2.016916220859312,
+      "Omega_deg": 337.9426103461244,
+      "omega_deg": 16.12689497888475,
+      "M_deg": 85.11888858079212,
+      "period_days": 16.69112168919004,
+      "retrograde": false,
+      "radius_km": 2410.3,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_callisto.jpg",
+      "note": "Use JPL SSD Planetary Satellite Mean Elements (J2000) for Ω, ω, M.",
+      "source": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Jupiter)"
+      ],
+      "n_deg_per_day": 21.5683527268963
+    },
+    {
+      "name": "Mimas",
+      "type": "moon",
+      "primary": "Saturn",
+      "a_km": 186036.8223903924,
+      "e": 0.02175634846415301,
+      "i_deg": 27.00265761372071,
+      "Omega_deg": 172.0569449519339,
+      "omega_deg": 108.7253838060412,
+      "M_deg": 37.39805775106126,
+      "period_days": 0.9474714974314935,
+      "retrograde": false,
+      "radius_km": 198.2,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_mimas.jpg",
+      "note": "Angles available from JPL SSD mean elements (J2000).",
+      "source": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Saturn)"
+      ],
+      "n_deg_per_day": 379.9586594171184
+    },
+    {
+      "name": "Enceladus",
+      "type": "moon",
+      "primary": "Saturn",
+      "a_km": 238419.868844131,
+      "e": 0.006351597350212341,
+      "i_deg": 28.05202310549093,
+      "Omega_deg": 169.5065956328603,
+      "omega_deg": 135.4830251984964,
+      "M_deg": 6.953398474767734,
+      "period_days": 1.3746160956188618,
+      "retrograde": false,
+      "radius_km": 252.1,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_enceladus.jpg",
+      "note": "Angles available from JPL SSD mean elements (J2000).",
+      "source": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Saturn)"
+      ],
+      "n_deg_per_day": 261.8913027043565
+    },
+    {
+      "name": "Tethys",
+      "type": "moon",
+      "primary": "Saturn",
+      "a_km": 294980.2530852609,
+      "e": 0.0009698778768676897,
+      "i_deg": 27.22072909012297,
+      "Omega_deg": 167.9977256763769,
+      "omega_deg": 158.0570744864902,
+      "M_deg": 350.3828192477454,
+      "period_days": 1.8917205380467301,
+      "retrograde": false,
+      "radius_km": 531.1,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_tethys.jpg",
+      "note": "Angles available from JPL SSD mean elements (J2000).",
+      "source": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Saturn)"
+      ],
+      "n_deg_per_day": 190.3029505466558
+    },
+    {
+      "name": "Dione",
+      "type": "moon",
+      "primary": "Saturn",
+      "a_km": 377652.1784818553,
+      "e": 0.002928360145096942,
+      "i_deg": 28.04139510566285,
+      "Omega_deg": 169.470196786071,
+      "omega_deg": 164.9353995421455,
+      "M_deg": 332.0565629313631,
+      "period_days": 2.7403458164322547,
+      "retrograde": false,
+      "radius_km": 561.4,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_dione.jpg",
+      "note": "Angles available from JPL SSD mean elements (J2000).",
+      "source": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Saturn)"
+      ],
+      "n_deg_per_day": 131.3702810212091
+    },
+    {
+      "name": "Rhea",
+      "type": "moon",
+      "primary": "Saturn",
+      "a_km": 527225.2527315543,
+      "e": 0.0008002149724314739,
+      "i_deg": 28.24141737577452,
+      "Omega_deg": 168.9842022220848,
+      "omega_deg": 165.7818213737295,
+      "M_deg": 206.9021112955066,
+      "period_days": 4.520237180979472,
+      "retrograde": false,
+      "radius_km": 763.8,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_rhea.jpg",
+      "note": "Angles available from JPL SSD mean elements (J2000).",
+      "source": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Saturn)"
+      ],
+      "n_deg_per_day": 79.64183859971548
+    },
+    {
+      "name": "Titan",
+      "type": "moon",
+      "primary": "Saturn",
+      "a_km": 1221934.800913171,
+      "e": 0.02860066256432539,
+      "i_deg": 27.71833887311165,
+      "Omega_deg": 169.2391602866279,
+      "omega_deg": 164.4091285733822,
+      "M_deg": 163.4361974944248,
+      "period_days": 15.947347507543823,
+      "retrograde": false,
+      "radius_km": 2574.7,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_titan.jpg",
+      "note": "Angles available from JPL SSD mean elements (J2000).",
+      "source": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Saturn)"
+      ],
+      "n_deg_per_day": 22.57428702984641
+    },
+    {
+      "name": "Hyperion",
+      "type": "moon",
+      "primary": "Saturn",
+      "a_km": 1485060.6665038199,
+      "e": 0.126730863824527,
+      "i_deg": 27.20902903280515,
+      "Omega_deg": 168.305013991762,
+      "omega_deg": 188.6932689050722,
+      "M_deg": 70.60386395985986,
+      "period_days": 21.368994637818638,
+      "retrograde": false,
+      "radius_km": 135,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_hyperion.jpg",
+      "note": "Angles available from JPL SSD mean elements (J2000).",
+      "source": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Saturn)"
+      ],
+      "n_deg_per_day": 16.84683842649647
+    },
+    {
+      "name": "Iapetus",
+      "type": "moon",
+      "primary": "Saturn",
+      "a_km": 3562566.556811612,
+      "e": 0.02786249162022612,
+      "i_deg": 17.23820439459392,
+      "Omega_deg": 139.6917551276544,
+      "omega_deg": 229.658395405145,
+      "M_deg": 208.0175928163262,
+      "period_days": 79.39837044190303,
+      "retrograde": false,
+      "radius_km": 734.5,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_iapetus.jpg",
+      "note": "Angles available from JPL SSD mean elements (J2000).",
+      "source": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Saturn)"
+      ],
+      "n_deg_per_day": 4.534098092899997
+    },
+    {
+      "name": "Miranda",
+      "type": "moon",
+      "primary": "Uranus",
+      "a_km": 129871.7551017135,
+      "e": 0.001509798566639019,
+      "i_deg": 97.25415391960598,
+      "Omega_deg": 172.0875833032825,
+      "omega_deg": 261.0221270814858,
+      "M_deg": 62.06189119864032,
+      "period_days": 1.4140040133813156,
+      "retrograde": true,
+      "radius_km": 235.8,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_miranda.jpg",
+      "note": "Angles available from JPL SSD mean elements (J2000).",
+      "source": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Uranus)"
+      ],
+      "n_deg_per_day": 254.5961656354355
+    },
+    {
+      "name": "Ariel",
+      "type": "moon",
+      "primary": "Uranus",
+      "a_km": 190941.34697918844,
+      "e": 0.001520812328868678,
+      "i_deg": 97.719319228073,
+      "Omega_deg": 167.6455486422633,
+      "omega_deg": 45.35674156751863,
+      "M_deg": 152.7943682479845,
+      "period_days": 2.5207256321507536,
+      "retrograde": true,
+      "radius_km": 578.9,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_ariel.jpg",
+      "note": "Angles available from JPL SSD mean elements (J2000).",
+      "source": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Uranus)"
+      ],
+      "n_deg_per_day": 142.8160190892485
+    },
+    {
+      "name": "Umbriel",
+      "type": "moon",
+      "primary": "Uranus",
+      "a_km": 266012.18874869606,
+      "e": 0.004170165145635332,
+      "i_deg": 97.66606723745439,
+      "Omega_deg": 167.6381821495947,
+      "omega_deg": 334.9516684490692,
+      "M_deg": 271.2233789529364,
+      "period_days": 4.145031502892753,
+      "retrograde": true,
+      "radius_km": 584.7,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_umbriel.jpg",
+      "note": "Angles available from JPL SSD mean elements (J2000).",
+      "source": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Uranus)"
+      ],
+      "n_deg_per_day": 86.85096838196806
+    },
+    {
+      "name": "Titania",
+      "type": "moon",
+      "primary": "Uranus",
+      "a_km": 436292.67559516383,
+      "e": 0.002479000317146799,
+      "i_deg": 97.818368383812,
+      "Omega_deg": 167.6178145945835,
+      "omega_deg": 202.1167721066045,
+      "M_deg": 74.41677554285916,
+      "period_days": 8.706372907685905,
+      "retrograde": true,
+      "radius_km": 788.9,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_titania.jpg",
+      "note": "Angles available from JPL SSD mean elements (J2000).",
+      "source": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Uranus)"
+      ],
+      "n_deg_per_day": 41.34902143718141
+    },
+    {
+      "name": "Oberon",
+      "type": "moon",
+      "primary": "Uranus",
+      "a_km": 583549.944051016,
+      "e": 0.0005523244847399845,
+      "i_deg": 97.87585296035932,
+      "Omega_deg": 167.7555265636234,
+      "omega_deg": 254.006725206052,
+      "M_deg": 93.49629094330373,
+      "period_days": 13.467523779403725,
+      "retrograde": true,
+      "radius_km": 761.4,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_oberon.jpg",
+      "note": "Angles available from JPL SSD mean elements (J2000).",
+      "source": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Uranus)"
+      ],
+      "n_deg_per_day": 26.73097192154644
+    },
+    {
+      "name": "Triton",
+      "type": "moon",
+      "primary": "Neptune",
+      "a_km": 354765.8843162151,
+      "e": 6.368939270099938e-06,
+      "i_deg": 130.2557894944188,
+      "Omega_deg": 215.8516384153697,
+      "omega_deg": 74.71431790690689,
+      "M_deg": 359.9145795589976,
+      "period_days": 5.8770716626162,
+      "retrograde": true,
+      "radius_km": 1353.4,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_triton.jpg",
+      "note": "Retrograde orbit. Use JPL SSD mean elements (J2000) for Ω, ω, and mean longitude to compute M.",
+      "source": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptuniansatfact.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Neptune)"
+      ],
+      "n_deg_per_day": 61.25499579832326
+    },
+    {
+      "name": "Metis",
+      "type": "moon",
+      "primary": "Jupiter",
+      "a_km": 128877.98147107678,
+      "e": 0.00612909691510393,
+      "i_deg": 2.217168421004392,
+      "Omega_deg": 337.6541522842064,
+      "omega_deg": 188.5578743221913,
+      "M_deg": 358.0207537143368,
+      "period_days": 0.2989296477218363,
+      "retrograde": false,
+      "radius_km": 21.5,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "Metis_single_1k.png",
+      "source": [
+        "https://lasp.colorado.edu/mop/files/2015/08/jupiter_appendix2-1.pdf ; https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Jupiter)"
+      ],
+      "n_deg_per_day": 1204.296739194607
+    },
+    {
+      "name": "Adrastea",
+      "type": "moon",
+      "primary": "Jupiter",
+      "a_km": 129874.64208172618,
+      "e": 0.007460306513267502,
+      "i_deg": 2.209669459453749,
+      "Omega_deg": 337.7408049825866,
+      "omega_deg": 233.8229088586097,
+      "M_deg": 1.111371475674479,
+      "period_days": 0.30240394175912716,
+      "retrograde": false,
+      "radius_km": 8.2,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "Adrastea_single_1k.png",
+      "source": [
+        "https://lasp.colorado.edu/mop/files/2015/08/jupiter_appendix2-1.pdf ; https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Jupiter)"
+      ],
+      "n_deg_per_day": 1190.460672919236
+    },
+    {
+      "name": "Thebe",
+      "type": "moon",
+      "primary": "Jupiter",
+      "a_km": 222383.83160010356,
+      "e": 0.01524351586882957,
+      "i_deg": 3.28425787382156,
+      "Omega_deg": 338.0945696328999,
+      "omega_deg": 26.72952333036432,
+      "M_deg": 182.4925151052478,
+      "period_days": 0.6775724124166358,
+      "retrograde": false,
+      "radius_km": 49.3,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "Thebe.jpg",
+      "source": [
+        "https://lasp.colorado.edu/mop/files/2015/08/jupiter_appendix2-1.pdf ; https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Jupiter)"
+      ],
+      "n_deg_per_day": 531.308526443721
+    },
+    {
+      "name": "Himalia",
+      "type": "moon",
+      "primary": "Jupiter",
+      "a_km": 11372112.630088018,
+      "e": 0.1661999684637328,
+      "i_deg": 30.24690236958536,
+      "Omega_deg": 64.19218276806915,
+      "omega_deg": 321.1398654499047,
+      "M_deg": 78.24219545733595,
+      "period_days": 247.77793572088555,
+      "retrograde": false,
+      "radius_km": 85,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "Himalia.jpg",
+      "source": [
+        "https://lasp.colorado.edu/mop/files/2015/08/jupiter_appendix2-1.pdf ; https://ssd.jpl.nasa.gov/sats/phys_par/",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Jupiter)"
+      ],
+      "n_deg_per_day": 1.452913872062964
+    },
+    {
+      "name": "Elara",
+      "type": "moon",
+      "primary": "Jupiter",
+      "a_km": 11741166.764661709,
+      "e": 0.2218660080128935,
+      "i_deg": 28.91229539610507,
+      "Omega_deg": 112.7974917676072,
+      "omega_deg": 129.9137708141284,
+      "M_deg": 346.906682643569,
+      "period_days": 259.9368113094818,
+      "retrograde": false,
+      "radius_km": 43,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "Elara.jpg",
+      "source": [
+        "https://lasp.colorado.edu/mop/files/2015/08/jupiter_appendix2-1.pdf; https://solarsystem.nasa.gov/moons/jupiter-moons/elara/in-depth/",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Jupiter)"
+      ],
+      "n_deg_per_day": 1.384951974237241
+    },
+    {
+      "name": "Pasiphae",
+      "type": "moon",
+      "primary": "Jupiter",
+      "a_km": 23425241.16212726,
+      "e": 0.3795395076401018,
+      "i_deg": 140.0874210159217,
+      "Omega_deg": 315.7488905940656,
+      "omega_deg": 172.8293483335652,
+      "M_deg": 279.2244921356471,
+      "period_days": 732.5326864436379,
+      "retrograde": true,
+      "radius_km": 30,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "Pasiphae.jpg",
+      "source": [
+        "https://lasp.colorado.edu/mop/files/2015/08/jupiter_appendix2-1.pdf; https://solarsystem.nasa.gov/moons/jupiter-moons/pasiphae/in-depth/",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Jupiter)"
+      ],
+      "n_deg_per_day": 0.4914456469482047
+    },
+    {
+      "name": "Prometheus",
+      "type": "moon",
+      "primary": "Saturn",
+      "a_km": 140026.82472652104,
+      "e": 0.004807274664644071,
+      "i_deg": 28.05183790164515,
+      "Omega_deg": 169.5103032905776,
+      "omega_deg": 28.89290760452381,
+      "M_deg": 26.82437426183711,
+      "period_days": 0.6187064736068432,
+      "retrograde": false,
+      "radius_km": 43.1,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_prometheus.jpg",
+      "source": [
+        "https://promenade.imcce.fr/en/pages6/651.html ; https://ssd.jpl.nasa.gov/sats/phys_par/sep.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Saturn)"
+      ],
+      "note": "Basic orbital parameters from IMCCE (equator frame). J2000 mean angles (Ω, ω, M) should be taken from JPL SSD mean-elements.",
+      "n_deg_per_day": 581.8591130965956
+    },
+    {
+      "name": "Pan",
+      "type": "moon",
+      "primary": "Saturn",
+      "a_km": 134263.62477936933,
+      "e": 0.005063676085631714,
+      "i_deg": 28.051412531625,
+      "Omega_deg": 169.5266717450638,
+      "omega_deg": 106.68604552961,
+      "M_deg": 359.9340530538432,
+      "period_days": 0.580905315973526,
+      "retrograde": false,
+      "radius_km": 14.1,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_pan.png",
+      "source": [
+        "https://ciclops.org/media/sp/2007/2686_7448_0.pdf ; https://ssd.jpl.nasa.gov/sats/phys_par/sep.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Saturn)"
+      ],
+      "note": "Pan’s mean elements are from Spitale et al. (2006) Table 4 at epoch J2000 (JED 2451545.0). ω and M computed as ω=ϖ−Ω and M=λ−ϖ.",
+      "n_deg_per_day": 619.7223370157737
+    },
+    {
+      "name": "Atlas",
+      "type": "moon",
+      "primary": "Saturn",
+      "a_km": 138324.41612118366,
+      "e": 0.005196549727214316,
+      "i_deg": 28.0481152926085,
+      "Omega_deg": 169.5253227140575,
+      "omega_deg": 345.4188164292933,
+      "M_deg": 347.6252098851748,
+      "period_days": 0.6074577365062686,
+      "retrograde": false,
+      "radius_km": 15.1,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "Atlas_single_1k.png",
+      "source": [
+        "https://promenade.imcce.fr/en/pages6/651.html ; https://ssd.jpl.nasa.gov/sats/phys_par/sep.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Saturn)"
+      ],
+      "note": "IMCCE provides a, e, i and period relative to Saturn’s equator; J2000 mean angles (Ω, ω, M) are available in JPL SSD mean-elements tables but not accessible here.",
+      "n_deg_per_day": 592.6338218531934
+    },
+    {
+      "name": "Pandora",
+      "type": "moon",
+      "primary": "Saturn",
+      "a_km": 142348.25069445517,
+      "e": 0.004055307701602707,
+      "i_deg": 28.03601467542512,
+      "Omega_deg": 169.6291296360357,
+      "omega_deg": 238.5184971285754,
+      "M_deg": 58.81211229955071,
+      "period_days": 0.6341558465796068,
+      "retrograde": false,
+      "radius_km": 40.7,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_pandora.jpg",
+      "source": [
+        "https://promenade.imcce.fr/en/pages6/651.html ; https://ssd.jpl.nasa.gov/sats/phys_par/sep.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Saturn)"
+      ],
+      "note": "Basic orbital parameters from IMCCE (equator frame). J2000 mean angles (Ω, ω, M) should be taken from JPL SSD mean-elements.",
+      "n_deg_per_day": 567.6837987723394
+    },
+    {
+      "name": "Janus",
+      "type": "moon",
+      "primary": "Saturn",
+      "a_km": 152034.02983788084,
+      "e": 0.006166614098338093,
+      "i_deg": 27.98414089201398,
+      "Omega_deg": 169.8494957134946,
+      "omega_deg": 163.9078621462362,
+      "M_deg": 79.74133741752475,
+      "period_days": 0.6999693262779384,
+      "retrograde": false,
+      "radius_km": 89.5,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "Janus_single_1k.png",
+      "source": [
+        "https://promenade.imcce.fr/en/pages6/651.html ; https://ssd.jpl.nasa.gov/sats/phys_par/sep.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Saturn)"
+      ],
+      "note": "Basic orbital parameters from IMCCE (equator frame). J2000 mean angles (Ω, ω, M) should be taken from JPL SSD mean-elements.",
+      "n_deg_per_day": 514.3082510690675
+    },
+    {
+      "name": "Epimetheus",
+      "type": "moon",
+      "primary": "Saturn",
+      "a_km": 152072.85445798901,
+      "e": 0.00603242796139321,
+      "i_deg": 27.73815557932246,
+      "Omega_deg": 169.8737698494977,
+      "omega_deg": 230.586705948889,
+      "M_deg": 198.1646993046919,
+      "period_days": 0.7002374688477361,
+      "retrograde": false,
+      "radius_km": 58.1,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "Epimetheus_single_1k.png",
+      "source": [
+        "https://promenade.imcce.fr/en/pages6/651.html ; https://ssd.jpl.nasa.gov/sats/phys_par/sep.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Saturn)"
+      ],
+      "note": "Basic orbital parameters from IMCCE (equator frame). J2000 mean angles (Ω, ω, M) should be taken from JPL SSD mean-elements.",
+      "n_deg_per_day": 514.1113065434672
+    },
+    {
+      "name": "Puck",
+      "type": "moon",
+      "primary": "Uranus",
+      "a_km": 86044.24087175433,
+      "e": 0.0003469304165757746,
+      "i_deg": 97.44370365232936,
+      "Omega_deg": 167.4822260623544,
+      "omega_deg": 259.6917051482115,
+      "M_deg": 1.465063769957436,
+      "period_days": 0.7625379148630699,
+      "retrograde": true,
+      "radius_km": 81,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_puck.jpg",
+      "source": [
+        "https://ui.adsabs.harvard.edu/abs/1998AJ....115.1195J ; https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html ; https://ssd.jpl.nasa.gov/sats/phys_par/uep.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Uranus)"
+      ],
+      "note": "Period from Veiga et al. (2006 A&A 454, 683) and widely cited catalogs (~0.769 d). Precise J2000 mean-element angles are tabulated by JPL SSD but not accessible here.",
+      "n_deg_per_day": 472.1076722652483
+    },
+    {
+      "name": "Proteus",
+      "type": "moon",
+      "primary": "Neptune",
+      "a_km": 48293.456165752985,
+      "e": 0.001531450161272326,
+      "i_deg": 33.08886741964424,
+      "Omega_deg": 51.00210970622283,
+      "omega_deg": 102.1562675638568,
+      "M_deg": 359.9978736287896,
+      "period_days": 0.29520657089278896,
+      "retrograde": false,
+      "radius_km": 210,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "Proteus_single_1k.png",
+      "source": [
+        "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptuniansatfact.html ; https://ssd.jpl.nasa.gov/sats/phys_par/nep.html ; https://ui.adsabs.harvard.edu/abs/2009AJ....137.4322J",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Neptune)"
+      ],
+      "note": "Mean radius and basic orbit from NASA factsheets/JPL; detailed J2000 mean angles appear in JPL SSD mean-elements and Jacobson (2009).",
+      "n_deg_per_day": 1219.485050455541
+    },
+    {
+      "name": "Nereid",
+      "type": "moon",
+      "primary": "Neptune",
+      "a_km": 5511154.8437966425,
+      "e": 0.750641162299629,
+      "i_deg": 5.060515309908924,
+      "Omega_deg": 319.5898305060961,
+      "omega_deg": 297.001729635385,
+      "M_deg": 215.6257960331411,
+      "period_days": 359.8798323705177,
+      "retrograde": false,
+      "radius_km": 170,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "Nereid_single_1k.png",
+      "source": [
+        "https://arxiv.org/pdf/0912.2947v2 ; https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptuniansatfact.html ; https://ssd.jpl.nasa.gov/sats/phys_par/nep.html",
+        "Horizons ELEM @ J2000 (ECLIPTIC/J2000, center=Neptune)"
+      ],
+      "note": "Elements (a,e,i,period) consistent with ICRF/J2000 reference and literature (e.g., Iorio 2010 using JPL Horizons/SSD). J2000 mean-element angles (Ω, ω, M) should be taken from JPL SSD mean-elements.",
+      "n_deg_per_day": 1.000333910429742
+    },
+    {
+      "name": "Pluto",
+      "type": "dwarf_planet",
+      "primary": "Sun",
+      "a_AU": 39.481687,
+      "e": 0.248808,
+      "i_deg": 17.141,
+      "Omega_deg": 110.30347,
+      "omega_deg": 113.76329,
+      "M_deg": 14.86205,
+      "period_days": 90560,
+      "retrograde": false,
+      "radius_km": 1188,
+      "axial_tilt_deg": 119.51,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_plutomap.jpg",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html"
+    },
+    {
+      "name": "Ceres",
+      "type": "dwarf_planet",
+      "primary": "Sun",
+      "a_AU": 2.767182,
+      "e": 0.0788175,
+      "i_deg": 10.586,
+      "Omega_deg": 80.2601,
+      "omega_deg": 73.470462,
+      "M_deg": 6.76437,
+      "period_days": 1681.338,
+      "retrograde": false,
+      "radius_km": 469.7,
+      "axial_tilt_deg": 4,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_ceres.jpg",
+      "note": "M_deg computed at J2000 (TT) using SBDB period and Tp; other angles are SBDB J2000-referenced osculating elements.",
+      "source": "https://ssd.jpl.nasa.gov/sbdb.cgi?sstr=1"
+    },
+    {
+      "name": "Haumea",
+      "type": "dwarf_planet",
+      "primary": "Sun",
+      "a_AU": 43.218,
+      "e": 0.191,
+      "i_deg": 28.213,
+      "Omega_deg": 122.169,
+      "omega_deg": 240.376,
+      "M_deg": 189.141,
+      "period_days": 103731,
+      "retrograde": false,
+      "radius_km": 798,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_haumea.jpg",
+      "note": "Estimated M at J2000 (TT) from M = n*(t−Tp) mod 360 using n = 0.00350520 deg/day and Tp = JD 2500289.4542 (2133-06-16).",
+      "source": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=136108; https://theskylive.com/haumea-info; https://ssd.jpl.nasa.gov/horizons/manual.html"
+    },
+    {
+      "name": "Makemake",
+      "type": "dwarf_planet",
+      "primary": "Sun",
+      "a_AU": 45.4309,
+      "e": 0.16126,
+      "i_deg": 28.983,
+      "Omega_deg": 79.62,
+      "omega_deg": 294.834,
+      "M_deg": 140.303,
+      "period_days": 111845,
+      "retrograde": false,
+      "radius_km": 715,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_makemake.jpg",
+      "note": "M_deg evaluated at J2000 (TT) from SBDB period and pericenter time; other angles are SBDB J2000-referenced osculating elements.",
+      "source": "https://ssd.jpl.nasa.gov/sbdb.cgi?sstr=136472"
+    },
+    {
+      "name": "Eris",
+      "type": "dwarf_planet",
+      "primary": "Sun",
+      "a_AU": 68.0506,
+      "e": 0.435675,
+      "i_deg": 43.821,
+      "Omega_deg": 36.046,
+      "omega_deg": 150.714,
+      "M_deg": 211.032,
+      "period_days": 205044,
+      "retrograde": false,
+      "radius_km": 1163,
+      "axial_tilt_deg": null,
+      "frame": "ecliptic_J2000",
+      "texture_hint": "2k_eris.png",
+      "note": "Orbital elements are heliocentric osculating referenced to the IAU76/J2000 ecliptic at epoch 2025-05-05 (TDB) as provided by JPL SBDB; for strict J2000(TT) elements, query JPL HORIZONS.",
+      "source": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html; https://ntrs.nasa.gov/api/citations/20210012932/downloads/21-49.pdf; https://science.nasa.gov/dwarf-planets/eris/"
+    },
+    {
+      "name": "1P/Halley",
+      "type": "comet",
+      "primary": "Sun",
+      "a_AU": 17.92781774,
+      "e": 0.96794279,
+      "i_deg": 162.18787119,
+      "Omega_deg": 59.11448294,
+      "omega_deg": 112.257792,
+      "M_deg": 66.27,
+      "period_days": 27563.0,
+      "retrograde": true,
+      "radius_km": 5.5,
+      "source": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=1P"
+    },
+    {
+      "name": "2P/Encke",
+      "type": "comet",
+      "primary": "Sun",
+      "a_AU": 2.21474278,
+      "e": 0.84833408,
+      "i_deg": 11.7782263,
+      "Omega_deg": 334.56005331,
+      "omega_deg": 186.56269392,
+      "M_deg": 282.79261019,
+      "period_days": 1203.8805,
+      "retrograde": false,
+      "radius_km": 2.4,
+      "source": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=2P"
+    },
+    {
+      "name": "67P/Churyumov-Gerasimenko",
+      "type": "comet",
+      "primary": "Sun",
+      "a_AU": 3.46224949,
+      "e": 0.64090813,
+      "i_deg": 7.04029491,
+      "Omega_deg": 50.13545635,
+      "omega_deg": 12.76974111,
+      "M_deg": 207.553947,
+      "period_days": 2319.0706,
+      "retrograde": false,
+      "radius_km": 2.0,
+      "source": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=67P"
+    },
+    {
+      "name": "109P/Swift-Tuttle",
+      "type": "comet",
+      "primary": "Sun",
+      "a_AU": 26.0920695,
+      "e": 0.96322576,
+      "i_deg": 113.453817,
+      "Omega_deg": 139.38119208,
+      "omega_deg": 152.98216763,
+      "M_deg": 19.05335089,
+      "period_days": 48681.1935,
+      "retrograde": true,
+      "radius_km": 13.0,
+      "source": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=109P"
+    },
+    {
+      "name": "9P/Tempel 1",
+      "type": "comet",
+      "primary": "Sun",
+      "a_AU": 3.14620621,
+      "e": 0.5097153,
+      "i_deg": 10.47337656,
+      "Omega_deg": 68.75447718,
+      "omega_deg": 179.19604571,
+      "M_deg": 10.06464352,
+      "period_days": 2038.3521,
+      "retrograde": false,
+      "radius_km": 3.0,
+      "source": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=9P"
+    },
+    {
+      "name": "46P/Wirtanen",
+      "type": "comet",
+      "primary": "Sun",
+      "a_AU": 3.09266187,
+      "e": 0.65875501,
+      "i_deg": 11.74754876,
+      "Omega_deg": 82.15763392,
+      "omega_deg": 356.34107186,
+      "M_deg": 185.88153966,
+      "period_days": 1986.539,
+      "retrograde": false,
+      "radius_km": 0.7,
+      "source": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=46P"
+    },
+    {
+      "name": "81P/Wild 2",
+      "type": "comet",
+      "primary": "Sun",
+      "a_AU": 3.44974558,
+      "e": 0.53739891,
+      "i_deg": 3.23700417,
+      "Omega_deg": 136.11022085,
+      "omega_deg": 41.72523085,
+      "M_deg": 150.29765539,
+      "period_days": 2340.3404,
+      "retrograde": false,
+      "radius_km": 2.5,
+      "source": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=81P"
+    },
+    {
+      "name": "21P/Giacobini-Zinner",
+      "type": "comet",
+      "primary": "Sun",
+      "a_AU": 3.50030285,
+      "e": 0.71047048,
+      "i_deg": 32.00259232,
+      "Omega_deg": 195.4044802,
+      "omega_deg": 172.81248243,
+      "M_deg": 52.5500915,
+      "period_days": 2391.9762,
+      "retrograde": false,
+      "radius_km": 1.0,
+      "source": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=21P"
+    }
+  ],
+  "constellations": {},
+  "constellations_fallback": {},
+  "constellations_other": {},
+  "skybox": {},
+  "validate": {}
+}

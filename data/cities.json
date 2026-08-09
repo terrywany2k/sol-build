@@ -1,0 +1,4144 @@
+{
+  "Afghanistan": [
+    {
+      "name": "Kabul",
+      "lat": 34.51669029,
+      "lon": 69.18326005,
+      "tz": "Asia/Kabul"
+    },
+    {
+      "name": "Kandahar",
+      "lat": 31.61002016,
+      "lon": 65.69494584,
+      "tz": "Asia/Kabul"
+    },
+    {
+      "name": "Herat",
+      "lat": 34.33000917,
+      "lon": 62.16999304,
+      "tz": "Asia/Kabul"
+    },
+    {
+      "name": "Jalalabad",
+      "lat": 34.44152692,
+      "lon": 70.43610347,
+      "tz": "Asia/Kabul"
+    },
+    {
+      "name": "Mazar-e Sharif",
+      "lat": 36.69999371,
+      "lon": 67.10002803,
+      "tz": "Asia/Kabul"
+    },
+    {
+      "name": "Kondoz",
+      "lat": 36.72795066,
+      "lon": 68.87252966,
+      "tz": "Asia/Kabul"
+    },
+    {
+      "name": "Lashkar Gah",
+      "lat": 31.58299802,
+      "lon": 64.35999955,
+      "tz": "Asia/Kabul"
+    }
+  ],
+  "Albania": [
+    {
+      "name": "Tirana",
+      "lat": 41.32754071,
+      "lon": 19.81888301,
+      "tz": "Europe/Tirane"
+    }
+  ],
+  "Algeria": [
+    {
+      "name": "Algiers",
+      "lat": 36.7630648,
+      "lon": 3.05055253,
+      "tz": "Africa/Algiers"
+    },
+    {
+      "name": "Oran",
+      "lat": 35.71000246,
+      "lon": -0.61997278,
+      "tz": "Africa/Algiers"
+    },
+    {
+      "name": "Constantine",
+      "lat": 36.35998863,
+      "lon": 6.599948281,
+      "tz": "Africa/Algiers"
+    },
+    {
+      "name": "Chlef",
+      "lat": 36.17041363,
+      "lon": 1.319960489,
+      "tz": "Africa/Algiers"
+    },
+    {
+      "name": "Arak",
+      "lat": 25.2799931,
+      "lon": 3.749993041,
+      "tz": "Africa/Algiers"
+    },
+    {
+      "name": "Blida",
+      "lat": 36.4203467,
+      "lon": 2.829997517,
+      "tz": "Africa/Algiers"
+    },
+    {
+      "name": "Annaba",
+      "lat": 36.92000612,
+      "lon": 7.759980834,
+      "tz": "Africa/Algiers"
+    },
+    {
+      "name": "Setif",
+      "lat": 36.18002545,
+      "lon": 5.399969847,
+      "tz": "Africa/Algiers"
+    }
+  ],
+  "Angola": [
+    {
+      "name": "Luanda",
+      "lat": -8.838286114,
+      "lon": 13.23442704,
+      "tz": "Africa/Luanda"
+    },
+    {
+      "name": "Huambo",
+      "lat": -12.74998533,
+      "lon": 15.76000932,
+      "tz": "Africa/Luanda"
+    }
+  ],
+  "Argentina": [
+    {
+      "name": "Buenos Aires",
+      "lat": -34.60250161,
+      "lon": -58.39753137,
+      "tz": "America/Argentina/Buenos_Aires"
+    },
+    {
+      "name": "Córdoba",
+      "lat": -31.39995807,
+      "lon": -64.18229456,
+      "tz": "America/Argentina/Cordoba"
+    },
+    {
+      "name": "Rosario",
+      "lat": -32.95112954,
+      "lon": -60.66630762,
+      "tz": "America/Argentina/Cordoba"
+    },
+    {
+      "name": "Mendoza",
+      "lat": -32.88333006,
+      "lon": -68.81661117,
+      "tz": "America/Argentina/Mendoza"
+    },
+    {
+      "name": "Tucumán",
+      "lat": -26.81600014,
+      "lon": -65.21662419,
+      "tz": "America/Argentina/Tucuman"
+    },
+    {
+      "name": "Mar del Plata",
+      "lat": -38.00002033,
+      "lon": -57.57998438,
+      "tz": "America/Argentina/Buenos_Aires"
+    },
+    {
+      "name": "Salta",
+      "lat": -24.78335936,
+      "lon": -65.41663782,
+      "tz": "America/Argentina/Salta"
+    },
+    {
+      "name": "La Plata",
+      "lat": -34.90961465,
+      "lon": -57.95996118,
+      "tz": "America/Argentina/Buenos_Aires"
+    }
+  ],
+  "Armenia": [
+    {
+      "name": "Yerevan",
+      "lat": 40.18115074,
+      "lon": 44.51355139,
+      "tz": "Asia/Yerevan"
+    }
+  ],
+  "Australia": [
+    {
+      "name": "Sydney",
+      "lat": -33.92001097,
+      "lon": 151.1851798,
+      "tz": "Australia/Sydney"
+    },
+    {
+      "name": "Melbourne",
+      "lat": -37.82003131,
+      "lon": 144.9750162,
+      "tz": "Australia/Melbourne"
+    },
+    {
+      "name": "Brisbane",
+      "lat": -27.45503091,
+      "lon": 153.0350927,
+      "tz": "Australia/Brisbane"
+    },
+    {
+      "name": "Perth",
+      "lat": -31.95501463,
+      "lon": 115.8399987,
+      "tz": "Australia/Perth"
+    },
+    {
+      "name": "Adelaide",
+      "lat": -34.93498777,
+      "lon": 138.6000048,
+      "tz": "Australia/Adelaide"
+    },
+    {
+      "name": "Newcastle",
+      "lat": -32.84534788,
+      "lon": 151.8150122,
+      "tz": "Australia/Sydney"
+    },
+    {
+      "name": "Gold Coast",
+      "lat": -28.08150429,
+      "lon": 153.4482458,
+      "tz": "Australia/Brisbane"
+    },
+    {
+      "name": "Canberra",
+      "lat": -35.28302855,
+      "lon": 149.1290262,
+      "tz": "Australia/Sydney"
+    }
+  ],
+  "Austria": [
+    {
+      "name": "Vienna",
+      "lat": 48.20001528,
+      "lon": 16.36663896,
+      "tz": "Europe/Vienna"
+    },
+    {
+      "name": "Linz",
+      "lat": 48.31923281,
+      "lon": 14.28878129,
+      "tz": "Europe/Vienna"
+    },
+    {
+      "name": "Graz",
+      "lat": 47.0777582,
+      "lon": 15.41000484,
+      "tz": "Europe/Vienna"
+    }
+  ],
+  "Azerbaijan": [
+    {
+      "name": "Baku",
+      "lat": 40.39527203,
+      "lon": 49.86221716,
+      "tz": "Asia/Baku"
+    },
+    {
+      "name": "Ganca",
+      "lat": 40.68499595,
+      "lon": 46.35002844,
+      "tz": "Asia/Baku"
+    },
+    {
+      "name": "Sumqayt",
+      "lat": 40.58001528,
+      "lon": 49.62998328,
+      "tz": "Asia/Baku"
+    },
+    {
+      "name": "Agdam",
+      "lat": 40.9052778,
+      "lon": 45.5563889,
+      "tz": "Asia/Baku"
+    }
+  ],
+  "Bahrain": [
+    {
+      "name": "Manama",
+      "lat": 26.23613629,
+      "lon": 50.58305172,
+      "tz": "Asia/Bahrain"
+    }
+  ],
+  "Bangladesh": [
+    {
+      "name": "Dhaka",
+      "lat": 23.72305971,
+      "lon": 90.40857947,
+      "tz": "Asia/Dhaka"
+    },
+    {
+      "name": "Chittagong",
+      "lat": 22.32999229,
+      "lon": 91.79996741,
+      "tz": "Asia/Dhaka"
+    },
+    {
+      "name": "Khulna",
+      "lat": 22.839987,
+      "lon": 89.56000077,
+      "tz": "Asia/Dhaka"
+    },
+    {
+      "name": "Rajshahi",
+      "lat": 24.37498374,
+      "lon": 88.6050203,
+      "tz": "Asia/Dhaka"
+    },
+    {
+      "name": "Comilla",
+      "lat": 23.47041363,
+      "lon": 91.16998002,
+      "tz": "Asia/Dhaka"
+    },
+    {
+      "name": "Mymensingh",
+      "lat": 24.75041302,
+      "lon": 90.3800024,
+      "tz": "Asia/Dhaka"
+    },
+    {
+      "name": "Rangpur",
+      "lat": 25.75001609,
+      "lon": 89.28001786,
+      "tz": "Asia/Dhaka"
+    },
+    {
+      "name": "Jessore",
+      "lat": 23.17043194,
+      "lon": 89.19997107,
+      "tz": "Asia/Dhaka"
+    }
+  ],
+  "Belarus": [
+    {
+      "name": "Minsk",
+      "lat": 53.89997744,
+      "lon": 27.56662716,
+      "tz": "Europe/Minsk"
+    },
+    {
+      "name": "Homyel",
+      "lat": 52.43001548,
+      "lon": 31.00000932,
+      "tz": "Europe/Minsk"
+    },
+    {
+      "name": "Mahilyow",
+      "lat": 53.89850466,
+      "lon": 30.32465002,
+      "tz": "Europe/Minsk"
+    },
+    {
+      "name": "Vitsyebsk",
+      "lat": 55.18871014,
+      "lon": 30.18533036,
+      "tz": "Europe/Minsk"
+    },
+    {
+      "name": "Hrodna",
+      "lat": 53.67787213,
+      "lon": 23.83409013,
+      "tz": "Europe/Minsk"
+    },
+    {
+      "name": "Brest",
+      "lat": 52.09998395,
+      "lon": 23.69998979,
+      "tz": "Europe/Minsk"
+    },
+    {
+      "name": "Babruysk",
+      "lat": 53.12656211,
+      "lon": 29.19278113,
+      "tz": "Europe/Minsk"
+    }
+  ],
+  "Belgium": [
+    {
+      "name": "Brussels",
+      "lat": 50.83331708,
+      "lon": 4.333316608,
+      "tz": "Europe/Brussels"
+    },
+    {
+      "name": "Antwerpen",
+      "lat": 51.22037355,
+      "lon": 4.415017048,
+      "tz": "Europe/Brussels"
+    },
+    {
+      "name": "Liege",
+      "lat": 50.62999615,
+      "lon": 5.580010537,
+      "tz": "Europe/Brussels"
+    },
+    {
+      "name": "Gent",
+      "lat": 51.02999758,
+      "lon": 3.700021931,
+      "tz": "Europe/Brussels"
+    },
+    {
+      "name": "Charleroi",
+      "lat": 50.42039654,
+      "lon": 4.450001992,
+      "tz": "Europe/Brussels"
+    }
+  ],
+  "Benin": [
+    {
+      "name": "Cotonou",
+      "lat": 6.400008564,
+      "lon": 2.519990599,
+      "tz": "Africa/Porto-Novo"
+    },
+    {
+      "name": "Porto-Novo",
+      "lat": 6.483310973,
+      "lon": 2.616625528,
+      "tz": "Africa/Porto-Novo"
+    }
+  ],
+  "Bolivia": [
+    {
+      "name": "Santa Cruz",
+      "lat": -17.75391762,
+      "lon": -63.22599634,
+      "tz": "America/La_Paz"
+    },
+    {
+      "name": "La Paz",
+      "lat": -16.49797361,
+      "lon": -68.14998519,
+      "tz": "America/La_Paz"
+    },
+    {
+      "name": "Cochabamba",
+      "lat": -17.41001097,
+      "lon": -66.16997685,
+      "tz": "America/La_Paz"
+    },
+    {
+      "name": "Santa Ana",
+      "lat": -13.7600012,
+      "lon": -65.57996118,
+      "tz": "America/La_Paz"
+    },
+    {
+      "name": "Oruro",
+      "lat": -17.97995034,
+      "lon": -67.12999577,
+      "tz": "America/La_Paz"
+    },
+    {
+      "name": "Quillacollo",
+      "lat": -17.39998574,
+      "lon": -66.27999597,
+      "tz": "America/La_Paz"
+    },
+    {
+      "name": "Sucre",
+      "lat": -19.04097085,
+      "lon": -65.25951563,
+      "tz": "America/La_Paz"
+    }
+  ],
+  "Bosnia and Herzegovina": [
+    {
+      "name": "Sarajevo",
+      "lat": 43.8500224,
+      "lon": 18.38300167,
+      "tz": "Europe/Sarajevo"
+    },
+    {
+      "name": "Banja Luka",
+      "lat": 44.78040489,
+      "lon": 17.17997432,
+      "tz": "Europe/Sarajevo"
+    }
+  ],
+  "Brazil": [
+    {
+      "name": "Sao Paulo",
+      "lat": -23.55867959,
+      "lon": -46.62501998,
+      "tz": "America/Sao_Paulo"
+    },
+    {
+      "name": "Rio de Janeiro",
+      "lat": -22.92502317,
+      "lon": -43.22502079,
+      "tz": "America/Sao_Paulo"
+    },
+    {
+      "name": "Belo Horizonte",
+      "lat": -19.91502602,
+      "lon": -43.91500452,
+      "tz": "America/Sao_Paulo"
+    },
+    {
+      "name": "Brasilia",
+      "lat": -15.78334023,
+      "lon": -47.91605229,
+      "tz": "America/Sao_Paulo"
+    },
+    {
+      "name": "Salvador",
+      "lat": -12.9699719,
+      "lon": -38.47998743,
+      "tz": "America/Bahia"
+    },
+    {
+      "name": "Fortaleza",
+      "lat": -3.750017884,
+      "lon": -38.57998132,
+      "tz": "America/Fortaleza"
+    },
+    {
+      "name": "Porto Alegre",
+      "lat": -30.05001463,
+      "lon": -51.20001205,
+      "tz": "America/Sao_Paulo"
+    },
+    {
+      "name": "Recife",
+      "lat": -8.075645326,
+      "lon": -34.91560551,
+      "tz": "America/Recife"
+    }
+  ],
+  "Brunei": [
+    {
+      "name": "Bandar Seri Begawan",
+      "lat": 4.883331115,
+      "lon": 114.9332841,
+      "tz": "Asia/Brunei"
+    }
+  ],
+  "Bulgaria": [
+    {
+      "name": "Sofia",
+      "lat": 42.68334943,
+      "lon": 23.31665401,
+      "tz": "Europe/Sofia"
+    },
+    {
+      "name": "Plovdiv",
+      "lat": 42.15397605,
+      "lon": 24.7539823,
+      "tz": "Europe/Sofia"
+    },
+    {
+      "name": "Varna",
+      "lat": 43.21564252,
+      "lon": 27.89528926,
+      "tz": "Europe/Sofia"
+    }
+  ],
+  "Burkina Faso": [
+    {
+      "name": "Ouagadougou",
+      "lat": 12.37031598,
+      "lon": -1.524723756,
+      "tz": "Africa/Ouagadougou"
+    },
+    {
+      "name": "Bobo Dioulasso",
+      "lat": 11.1799752,
+      "lon": -4.289981325,
+      "tz": "Africa/Ouagadougou"
+    }
+  ],
+  "Burundi": [
+    {
+      "name": "Bujumbura",
+      "lat": -3.37608722,
+      "lon": 29.36000606,
+      "tz": "Africa/Bujumbura"
+    }
+  ],
+  "Cambodia": [
+    {
+      "name": "Phnom Penh",
+      "lat": 11.55003013,
+      "lon": 104.9166345,
+      "tz": "Asia/Phnom_Penh"
+    }
+  ],
+  "Cameroon": [
+    {
+      "name": "Douala",
+      "lat": 4.060409769,
+      "lon": 9.709991006,
+      "tz": "Africa/Douala"
+    },
+    {
+      "name": "Yaounde",
+      "lat": 3.866700662,
+      "lon": 11.51665076,
+      "tz": "Africa/Douala"
+    },
+    {
+      "name": "Bamenda",
+      "lat": 5.959983743,
+      "lon": 10.15001583,
+      "tz": "Africa/Douala"
+    },
+    {
+      "name": "Garoua",
+      "lat": 9.30001243,
+      "lon": 13.39002478,
+      "tz": "Africa/Douala"
+    },
+    {
+      "name": "Bafoussam",
+      "lat": 5.490425841,
+      "lon": 10.40994828,
+      "tz": "Africa/Douala"
+    },
+    {
+      "name": "Maroua",
+      "lat": 10.59556643,
+      "lon": 14.32469641,
+      "tz": "Africa/Douala"
+    }
+  ],
+  "Canada": [
+    {
+      "name": "Toronto",
+      "lat": 43.69997988,
+      "lon": -79.42002079,
+      "tz": "America/Toronto"
+    },
+    {
+      "name": "Montréal",
+      "lat": 45.49999921,
+      "lon": -73.58329696,
+      "tz": "America/Montreal"
+    },
+    {
+      "name": "Vancouver",
+      "lat": 49.27341658,
+      "lon": -123.1216442,
+      "tz": "America/Vancouver"
+    },
+    {
+      "name": "Calgary",
+      "lat": 51.08299176,
+      "lon": -114.0799982,
+      "tz": "America/Edmonton"
+    },
+    {
+      "name": "Ottawa",
+      "lat": 45.4166968,
+      "lon": -75.7000153,
+      "tz": "America/Toronto"
+    },
+    {
+      "name": "Edmonton",
+      "lat": 53.55002464,
+      "lon": -113.4999819,
+      "tz": "America/Edmonton"
+    },
+    {
+      "name": "Hamilton",
+      "lat": 43.24998151,
+      "lon": -79.82999577,
+      "tz": "America/Toronto"
+    },
+    {
+      "name": "Winnipeg",
+      "lat": 49.88298749,
+      "lon": -97.16599186,
+      "tz": "America/Winnipeg"
+    }
+  ],
+  "Central African Republic": [
+    {
+      "name": "Bangui",
+      "lat": 4.366644306,
+      "lon": 18.55828813,
+      "tz": "Africa/Bangui"
+    }
+  ],
+  "Chad": [
+    {
+      "name": "Ndjamena",
+      "lat": 12.11309654,
+      "lon": 15.04914831,
+      "tz": "Africa/Ndjamena"
+    }
+  ],
+  "Chile": [
+    {
+      "name": "Santiago",
+      "lat": -33.45001382,
+      "lon": -70.66704085,
+      "tz": "America/Santiago"
+    },
+    {
+      "name": "Concepcion",
+      "lat": -36.83001422,
+      "lon": -73.05002202,
+      "tz": "America/Santiago"
+    },
+    {
+      "name": "Valparaiso",
+      "lat": -33.04776447,
+      "lon": -71.62101363,
+      "tz": "America/Santiago"
+    },
+    {
+      "name": "Vina del Mar",
+      "lat": -33.02998777,
+      "lon": -71.53998499,
+      "tz": "America/Santiago"
+    },
+    {
+      "name": "Antofagasta",
+      "lat": -23.64999184,
+      "lon": -70.40000289,
+      "tz": "America/Santiago"
+    },
+    {
+      "name": "Talcahuano",
+      "lat": -36.71668781,
+      "lon": -73.11665877,
+      "tz": "America/Santiago"
+    },
+    {
+      "name": "Temuco",
+      "lat": -38.73000161,
+      "lon": -72.57999903,
+      "tz": "America/Santiago"
+    },
+    {
+      "name": "San Bernardo",
+      "lat": -33.59997882,
+      "lon": -70.69998458,
+      "tz": "America/Santiago"
+    }
+  ],
+  "China": [
+    {
+      "name": "Shanghai",
+      "lat": 31.21645245,
+      "lon": 121.4365047,
+      "tz": "Asia/Shanghai"
+    },
+    {
+      "name": "Beijing",
+      "lat": 39.92889223,
+      "lon": 116.3882857,
+      "tz": "Asia/Shanghai"
+    },
+    {
+      "name": "Guangzhou",
+      "lat": 23.1449813,
+      "lon": 113.3250101,
+      "tz": "Asia/Shanghai"
+    },
+    {
+      "name": "Wuhan",
+      "lat": 30.58003135,
+      "lon": 114.270017,
+      "tz": "Asia/Shanghai"
+    },
+    {
+      "name": "Tianjin",
+      "lat": 39.13002626,
+      "lon": 117.2000191,
+      "tz": "Asia/Shanghai"
+    },
+    {
+      "name": "Chongqing",
+      "lat": 29.56497703,
+      "lon": 106.5949816,
+      "tz": "Asia/Chongqing"
+    },
+    {
+      "name": "Dongguan",
+      "lat": 23.0488889,
+      "lon": 113.7447222,
+      "tz": "Asia/Shanghai"
+    },
+    {
+      "name": "Shenzhen",
+      "lat": 22.55237051,
+      "lon": 114.1221231,
+      "tz": "Asia/Shanghai"
+    }
+  ],
+  "Colombia": [
+    {
+      "name": "Bogota",
+      "lat": 4.596423563,
+      "lon": -74.08334396,
+      "tz": "America/Bogota"
+    },
+    {
+      "name": "Medellin",
+      "lat": 6.275003274,
+      "lon": -75.57501001,
+      "tz": "America/Bogota"
+    },
+    {
+      "name": "Cali",
+      "lat": 3.399959126,
+      "lon": -76.49996647,
+      "tz": "America/Bogota"
+    },
+    {
+      "name": "Barranquilla",
+      "lat": 10.95998863,
+      "lon": -74.79996688,
+      "tz": "America/Bogota"
+    },
+    {
+      "name": "Cartagena",
+      "lat": 10.39973859,
+      "lon": -75.51439356,
+      "tz": "America/Bogota"
+    },
+    {
+      "name": "Bucaramanga",
+      "lat": 7.1300932,
+      "lon": -73.12588302,
+      "tz": "America/Bogota"
+    },
+    {
+      "name": "Cucuta",
+      "lat": 7.920019144,
+      "lon": -72.51997685,
+      "tz": "America/Bogota"
+    },
+    {
+      "name": "Soledad",
+      "lat": 10.92001691,
+      "lon": -74.76999455,
+      "tz": "America/Bogota"
+    }
+  ],
+  "Congo (Brazzaville)": [
+    {
+      "name": "Brazzaville",
+      "lat": -4.259185772,
+      "lon": 15.28468949,
+      "tz": "Africa/Brazzaville"
+    },
+    {
+      "name": "Pointe-Noire",
+      "lat": -4.770007305,
+      "lon": 11.88003943,
+      "tz": "Africa/Brazzaville"
+    }
+  ],
+  "Congo (Kinshasa)": [
+    {
+      "name": "Kinshasa",
+      "lat": -4.329724102,
+      "lon": 15.31497188,
+      "tz": "Africa/Kinshasa"
+    },
+    {
+      "name": "Lubumbashi",
+      "lat": -11.6800248,
+      "lon": 27.48001745,
+      "tz": "Africa/Lubumbashi"
+    },
+    {
+      "name": "Mbuji-Mayi",
+      "lat": -6.150026429,
+      "lon": 23.59999589,
+      "tz": "Africa/Lubumbashi"
+    },
+    {
+      "name": "Kananga",
+      "lat": -5.890042299,
+      "lon": 22.40001745,
+      "tz": "Africa/Lubumbashi"
+    },
+    {
+      "name": "Kisangani",
+      "lat": 0.520005716,
+      "lon": 25.22000036,
+      "tz": "Africa/Lubumbashi"
+    },
+    {
+      "name": "Kikwit",
+      "lat": -5.030043112,
+      "lon": 18.85000159,
+      "tz": "Africa/Kinshasa"
+    },
+    {
+      "name": "Likasi",
+      "lat": -10.9700423,
+      "lon": 26.7800085,
+      "tz": "Africa/Lubumbashi"
+    },
+    {
+      "name": "Kolwezi",
+      "lat": -10.71672443,
+      "lon": 25.47243974,
+      "tz": "Africa/Lubumbashi"
+    }
+  ],
+  "Costa Rica": [
+    {
+      "name": "San Jose",
+      "lat": 9.93501243,
+      "lon": -84.08405135,
+      "tz": "America/Costa_Rica"
+    },
+    {
+      "name": "Alajuela",
+      "lat": 10.02002016,
+      "lon": -84.23003727,
+      "tz": "America/Costa_Rica"
+    }
+  ],
+  "Croatia": [
+    {
+      "name": "Zagreb",
+      "lat": 45.80000673,
+      "lon": 15.99999467,
+      "tz": "Europe/Zagreb"
+    }
+  ],
+  "Cuba": [
+    {
+      "name": "Havana",
+      "lat": 23.13195884,
+      "lon": -82.36418217,
+      "tz": "America/Havana"
+    },
+    {
+      "name": "Santiago de Cuba",
+      "lat": 20.0250167,
+      "lon": -75.82132573,
+      "tz": "America/Havana"
+    },
+    {
+      "name": "Camaguey",
+      "lat": 21.38082542,
+      "lon": -77.91693425,
+      "tz": "America/Havana"
+    },
+    {
+      "name": "Holguin",
+      "lat": 20.88723798,
+      "lon": -76.26305587,
+      "tz": "America/Havana"
+    },
+    {
+      "name": "Guantanamo",
+      "lat": 20.1452936,
+      "lon": -75.20614364,
+      "tz": "America/Havana"
+    },
+    {
+      "name": "Santa Clara",
+      "lat": 22.40001385,
+      "lon": -79.9666541,
+      "tz": "America/Havana"
+    }
+  ],
+  "Cyprus": [
+    {
+      "name": "Nicosia",
+      "lat": 35.16667645,
+      "lon": 33.36663489,
+      "tz": "Asia/Nicosia"
+    }
+  ],
+  "Czech Republic": [
+    {
+      "name": "Prague",
+      "lat": 50.08333701,
+      "lon": 14.46597978,
+      "tz": "Europe/Prague"
+    },
+    {
+      "name": "Ostrava",
+      "lat": 49.83035504,
+      "lon": 18.24998653,
+      "tz": "Europe/Prague"
+    },
+    {
+      "name": "Brno",
+      "lat": 49.20039349,
+      "lon": 16.60998328,
+      "tz": "Europe/Prague"
+    }
+  ],
+  "Denmark": [
+    {
+      "name": "København",
+      "lat": 55.67856419,
+      "lon": 12.56348575,
+      "tz": "Europe/Copenhagen"
+    },
+    {
+      "name": "Copenhagen",
+      "lat": 55.676098,
+      "lon": 12.568337,
+      "tz": "Europe/Copenhagen"
+    },
+    {
+      "name": "Århus",
+      "lat": 56.157204,
+      "lon": 10.21068396,
+      "tz": "Europe/Copenhagen"
+    }
+  ],
+  "Djibouti": [
+    {
+      "name": "Djibouti",
+      "lat": 11.59501446,
+      "lon": 43.14800167,
+      "tz": "Africa/Djibouti"
+    }
+  ],
+  "Dominican Republic": [
+    {
+      "name": "Santiago",
+      "lat": 19.50000999,
+      "lon": -70.67001225,
+      "tz": "America/Santo_Domingo"
+    },
+    {
+      "name": "Santo Domingo",
+      "lat": 18.47007285,
+      "lon": -69.90008508,
+      "tz": "America/Santo_Domingo"
+    },
+    {
+      "name": "San Pedro de Macoris",
+      "lat": 18.4503583,
+      "lon": -69.29996668,
+      "tz": "America/Santo_Domingo"
+    },
+    {
+      "name": "La Romana",
+      "lat": 18.41700116,
+      "lon": -68.96660201,
+      "tz": "America/Santo_Domingo"
+    }
+  ],
+  "East Timor": [
+    {
+      "name": "Dili",
+      "lat": -8.559388409,
+      "lon": 125.5794559,
+      "tz": "Asia/Dili"
+    }
+  ],
+  "Ecuador": [
+    {
+      "name": "Guayaquil",
+      "lat": -2.220033754,
+      "lon": -79.92004195,
+      "tz": "America/Guayaquil"
+    },
+    {
+      "name": "Quito",
+      "lat": -0.214988181,
+      "lon": -78.50005111,
+      "tz": "America/Guayaquil"
+    },
+    {
+      "name": "Cuenca",
+      "lat": -2.89999225,
+      "lon": -78.99999475,
+      "tz": "America/Guayaquil"
+    },
+    {
+      "name": "Ambato",
+      "lat": -1.269600811,
+      "lon": -78.61999211,
+      "tz": "America/Guayaquil"
+    },
+    {
+      "name": "Machala",
+      "lat": -3.260021953,
+      "lon": -79.95998784,
+      "tz": "America/Guayaquil"
+    }
+  ],
+  "Egypt": [
+    {
+      "name": "Cairo",
+      "lat": 30.04996035,
+      "lon": 31.24996822,
+      "tz": "Africa/Cairo"
+    },
+    {
+      "name": "Alexandria",
+      "lat": 31.20001935,
+      "lon": 29.94999589,
+      "tz": "Africa/Cairo"
+    },
+    {
+      "name": "El Giza",
+      "lat": 30.00998863,
+      "lon": 31.19002356,
+      "tz": "Africa/Cairo"
+    },
+    {
+      "name": "Bur Said",
+      "lat": 31.25998985,
+      "lon": 32.2900081,
+      "tz": "Africa/Cairo"
+    },
+    {
+      "name": "Luxor",
+      "lat": 25.70001914,
+      "lon": 32.6500378,
+      "tz": "Africa/Cairo"
+    },
+    {
+      "name": "El Mansura",
+      "lat": 31.05044191,
+      "lon": 31.3800378,
+      "tz": "Africa/Cairo"
+    },
+    {
+      "name": "Suez",
+      "lat": 30.00497601,
+      "lon": 32.54994055,
+      "tz": "Africa/Cairo"
+    },
+    {
+      "name": "Ismailia",
+      "lat": 30.5903408,
+      "lon": 32.25998409,
+      "tz": "Africa/Cairo"
+    }
+  ],
+  "El Salvador": [
+    {
+      "name": "San Salvador",
+      "lat": 13.71000165,
+      "lon": -89.20304122,
+      "tz": "America/El_Salvador"
+    },
+    {
+      "name": "Santa Ana",
+      "lat": 13.9946096,
+      "lon": -89.55976363,
+      "tz": "America/El_Salvador"
+    }
+  ],
+  "Eritrea": [
+    {
+      "name": "Asmara",
+      "lat": 15.33333925,
+      "lon": 38.93332353,
+      "tz": "Africa/Asmara"
+    }
+  ],
+  "Estonia": [
+    {
+      "name": "Tallinn",
+      "lat": 59.43387738,
+      "lon": 24.72804073,
+      "tz": "Europe/Tallinn"
+    }
+  ],
+  "Ethiopia": [
+    {
+      "name": "Addis Ababa",
+      "lat": 9.033310363,
+      "lon": 38.70000443,
+      "tz": "Africa/Addis_Ababa"
+    },
+    {
+      "name": "Nazret",
+      "lat": 8.549980691,
+      "lon": 39.26999548,
+      "tz": "Africa/Addis_Ababa"
+    },
+    {
+      "name": "Dire Dawa",
+      "lat": 9.58999473,
+      "lon": 41.86001827,
+      "tz": "Africa/Addis_Ababa"
+    }
+  ],
+  "Finland": [
+    {
+      "name": "Helsinki",
+      "lat": 60.17556337,
+      "lon": 24.93412634,
+      "tz": "Europe/Helsinki"
+    },
+    {
+      "name": "Tampere",
+      "lat": 61.5000045,
+      "lon": 23.75001257,
+      "tz": "Europe/Helsinki"
+    }
+  ],
+  "France": [
+    {
+      "name": "Paris",
+      "lat": 48.86669293,
+      "lon": 2.333335326,
+      "tz": "Europe/Paris"
+    },
+    {
+      "name": "Marseille",
+      "lat": 43.28997906,
+      "lon": 5.37501013,
+      "tz": "Europe/Paris"
+    },
+    {
+      "name": "Lyon",
+      "lat": 45.77000856,
+      "lon": 4.830030475,
+      "tz": "Europe/Paris"
+    },
+    {
+      "name": "Toulouse",
+      "lat": 43.61995892,
+      "lon": 1.449926716,
+      "tz": "Europe/Paris"
+    },
+    {
+      "name": "Lille",
+      "lat": 50.64996909,
+      "lon": 3.080008096,
+      "tz": "Europe/Paris"
+    },
+    {
+      "name": "Nice",
+      "lat": 43.71501772,
+      "lon": 7.265023965,
+      "tz": "Europe/Paris"
+    },
+    {
+      "name": "Bordeaux",
+      "lat": 44.85001304,
+      "lon": -0.595013063,
+      "tz": "Europe/Paris"
+    },
+    {
+      "name": "Nantes",
+      "lat": 47.21038576,
+      "lon": -1.590016929,
+      "tz": "Europe/Paris"
+    }
+  ],
+  "Gabon": [
+    {
+      "name": "Libreville",
+      "lat": 0.38538861,
+      "lon": 9.457965046,
+      "tz": "Africa/Libreville"
+    }
+  ],
+  "Georgia": [
+    {
+      "name": "Tbilisi",
+      "lat": 41.72500999,
+      "lon": 44.79079545,
+      "tz": "Asia/Tbilisi"
+    }
+  ],
+  "Germany": [
+    {
+      "name": "Berlin",
+      "lat": 52.52181866,
+      "lon": 13.40154862,
+      "tz": "Europe/Berlin"
+    },
+    {
+      "name": "Frankfurt",
+      "lat": 50.09997683,
+      "lon": 8.67501542,
+      "tz": "Europe/Berlin"
+    },
+    {
+      "name": "Stuttgart",
+      "lat": 48.77997988,
+      "lon": 9.199996296,
+      "tz": "Europe/Berlin"
+    },
+    {
+      "name": "Hamburg",
+      "lat": 53.55002464,
+      "lon": 9.999999144,
+      "tz": "Europe/Berlin"
+    },
+    {
+      "name": "Mannheim",
+      "lat": 49.50037518,
+      "lon": 8.470015013,
+      "tz": "Europe/Berlin"
+    },
+    {
+      "name": "Munich",
+      "lat": 48.12994204,
+      "lon": 11.57499345,
+      "tz": "Europe/Berlin"
+    },
+    {
+      "name": "Essen",
+      "lat": 51.44999778,
+      "lon": 7.016615355,
+      "tz": "Europe/Berlin"
+    },
+    {
+      "name": "Cologne",
+      "lat": 50.93000368,
+      "lon": 6.950004434,
+      "tz": "Europe/Berlin"
+    }
+  ],
+  "Ghana": [
+    {
+      "name": "Accra",
+      "lat": 5.550034606,
+      "lon": -0.21671574,
+      "tz": "Africa/Accra"
+    },
+    {
+      "name": "Kumasi",
+      "lat": 6.689990864,
+      "lon": -1.630014487,
+      "tz": "Africa/Accra"
+    },
+    {
+      "name": "Tamale",
+      "lat": 9.400419738,
+      "lon": -0.83998519,
+      "tz": "Africa/Accra"
+    },
+    {
+      "name": "Sekondi",
+      "lat": 4.943275776,
+      "lon": -1.704015138,
+      "tz": "Africa/Accra"
+    }
+  ],
+  "Greece": [
+    {
+      "name": "Athens",
+      "lat": 37.98332623,
+      "lon": 23.73332108,
+      "tz": "Europe/Athens"
+    },
+    {
+      "name": "Thessaloniki",
+      "lat": 40.69610638,
+      "lon": 22.88500077,
+      "tz": "Europe/Athens"
+    },
+    {
+      "name": "Piraiévs",
+      "lat": 37.95002077,
+      "lon": 23.69998979,
+      "tz": "Europe/Athens"
+    }
+  ],
+  "Guatemala": [
+    {
+      "name": "Guatemala",
+      "lat": 14.62113466,
+      "lon": -90.52696558,
+      "tz": "America/Guatemala"
+    },
+    {
+      "name": "Quetzaltenango",
+      "lat": 14.82995913,
+      "lon": -91.52000574,
+      "tz": "America/Guatemala"
+    }
+  ],
+  "Guinea": [
+    {
+      "name": "Conakry",
+      "lat": 9.531522846,
+      "lon": -13.68023503,
+      "tz": "Africa/Conakry"
+    },
+    {
+      "name": "Gueckedou",
+      "lat": 8.553996122,
+      "lon": -10.1510005,
+      "tz": "Africa/Conakry"
+    }
+  ],
+  "Guinea Bissau": [
+    {
+      "name": "Bissau",
+      "lat": 11.86502382,
+      "lon": -15.59836084,
+      "tz": "Africa/Bissau"
+    }
+  ],
+  "Guyana": [
+    {
+      "name": "Georgetown",
+      "lat": 6.801973693,
+      "lon": -58.16702865,
+      "tz": "America/Guyana"
+    }
+  ],
+  "Haiti": [
+    {
+      "name": "Port-au-Prince",
+      "lat": 18.5410246,
+      "lon": -72.33603459,
+      "tz": "America/Port-au-Prince"
+    },
+    {
+      "name": "Cap-Haitien",
+      "lat": 19.7592224,
+      "lon": -72.21251602,
+      "tz": "America/Port-au-Prince"
+    }
+  ],
+  "Honduras": [
+    {
+      "name": "Tegucigalpa",
+      "lat": 14.1020449,
+      "lon": -87.21752934,
+      "tz": "America/Tegucigalpa"
+    },
+    {
+      "name": "San Pedro Sula",
+      "lat": 15.50002159,
+      "lon": -88.02998621,
+      "tz": "America/Tegucigalpa"
+    }
+  ],
+  "Hong Kong S.A.R.": [
+    {
+      "name": "Hong Kong",
+      "lat": 22.3049809,
+      "lon": 114.1850093,
+      "tz": "Asia/Hong_Kong"
+    }
+  ],
+  "Hungary": [
+    {
+      "name": "Budapest",
+      "lat": 47.50000633,
+      "lon": 19.08332068,
+      "tz": "Europe/Budapest"
+    },
+    {
+      "name": "Debrecen",
+      "lat": 47.53046958,
+      "lon": 21.63003861,
+      "tz": "Europe/Budapest"
+    },
+    {
+      "name": "Miskolc",
+      "lat": 48.10040896,
+      "lon": 20.78001298,
+      "tz": "Europe/Budapest"
+    }
+  ],
+  "India": [
+    {
+      "name": "Mumbai",
+      "lat": 19.01699038,
+      "lon": 72.8569893,
+      "tz": "Asia/Kolkata"
+    },
+    {
+      "name": "Delhi",
+      "lat": 28.6699929,
+      "lon": 77.23000403,
+      "tz": "Asia/Kolkata"
+    },
+    {
+      "name": "Kolkata",
+      "lat": 22.4949693,
+      "lon": 88.32467566,
+      "tz": "Asia/Kolkata"
+    },
+    {
+      "name": "Bengaluru",
+      "lat": 12.96999514,
+      "lon": 77.56000972,
+      "tz": "Asia/Kolkata"
+    },
+    {
+      "name": "Chennai",
+      "lat": 13.08998781,
+      "lon": 80.27999874,
+      "tz": "Asia/Kolkata"
+    },
+    {
+      "name": "Hyderabad",
+      "lat": 17.39998313,
+      "lon": 78.47995357,
+      "tz": "Asia/Kolkata"
+    },
+    {
+      "name": "Ahmedabad",
+      "lat": 23.03005292,
+      "lon": 72.58000362,
+      "tz": "Asia/Kolkata"
+    },
+    {
+      "name": "Pune",
+      "lat": 18.53001752,
+      "lon": 73.85000362,
+      "tz": "Asia/Kolkata"
+    }
+  ],
+  "Indonesia": [
+    {
+      "name": "Jakarta",
+      "lat": -6.174417705,
+      "lon": 106.8294376,
+      "tz": "Asia/Jakarta"
+    },
+    {
+      "name": "Surabaya",
+      "lat": -7.249235821,
+      "lon": 112.7508333,
+      "tz": "Asia/Jakarta"
+    },
+    {
+      "name": "Bandung",
+      "lat": -6.950029278,
+      "lon": 107.5700126,
+      "tz": "Asia/Jakarta"
+    },
+    {
+      "name": "Bekasi",
+      "lat": -6.217257468,
+      "lon": 106.972323,
+      "tz": "Asia/Jakarta"
+    },
+    {
+      "name": "Medan",
+      "lat": 3.579973978,
+      "lon": 98.65004024,
+      "tz": "Asia/Jakarta"
+    },
+    {
+      "name": "Palembang",
+      "lat": -2.980039043,
+      "lon": 104.7500297,
+      "tz": "Asia/Jakarta"
+    },
+    {
+      "name": "Semarang",
+      "lat": -6.966617412,
+      "lon": 110.4200195,
+      "tz": "Asia/Jakarta"
+    },
+    {
+      "name": "Ujungpandang",
+      "lat": -5.139958884,
+      "lon": 119.4320275,
+      "tz": "Asia/Makassar"
+    }
+  ],
+  "Iran": [
+    {
+      "name": "Tehran",
+      "lat": 35.67194277,
+      "lon": 51.42434403,
+      "tz": "Asia/Tehran"
+    },
+    {
+      "name": "Mashhad",
+      "lat": 36.27001996,
+      "lon": 59.5699967,
+      "tz": "Asia/Tehran"
+    },
+    {
+      "name": "Isfahan",
+      "lat": 32.70000531,
+      "lon": 51.7000378,
+      "tz": "Asia/Tehran"
+    },
+    {
+      "name": "Karaj",
+      "lat": 35.8003587,
+      "lon": 50.97000484,
+      "tz": "Asia/Tehran"
+    },
+    {
+      "name": "Tabriz",
+      "lat": 38.08629152,
+      "lon": 46.30124589,
+      "tz": "Asia/Tehran"
+    },
+    {
+      "name": "Shiraz",
+      "lat": 29.62996014,
+      "lon": 52.57001054,
+      "tz": "Asia/Tehran"
+    },
+    {
+      "name": "Qom",
+      "lat": 34.65001548,
+      "lon": 50.95000606,
+      "tz": "Asia/Tehran"
+    },
+    {
+      "name": "Ahvaz",
+      "lat": 31.27998863,
+      "lon": 48.72001298,
+      "tz": "Asia/Tehran"
+    }
+  ],
+  "Iraq": [
+    {
+      "name": "Baghdad",
+      "lat": 33.3386485,
+      "lon": 44.39386877,
+      "tz": "Asia/Baghdad"
+    },
+    {
+      "name": "Mosul",
+      "lat": 36.34500246,
+      "lon": 43.14500443,
+      "tz": "Asia/Baghdad"
+    },
+    {
+      "name": "Basra",
+      "lat": 30.51352378,
+      "lon": 47.81355668,
+      "tz": "Asia/Baghdad"
+    },
+    {
+      "name": "Irbil",
+      "lat": 36.1790436,
+      "lon": 44.00862097,
+      "tz": "Asia/Baghdad"
+    },
+    {
+      "name": "As Sulaymaniyah",
+      "lat": 35.56127769,
+      "lon": 45.43085974,
+      "tz": "Asia/Baghdad"
+    },
+    {
+      "name": "Dahuk",
+      "lat": 36.86670013,
+      "lon": 43.00000263,
+      "tz": "Asia/Baghdad"
+    },
+    {
+      "name": "An Najaf",
+      "lat": 32.00033225,
+      "lon": 44.33537105,
+      "tz": "Asia/Baghdad"
+    },
+    {
+      "name": "Kirkuk",
+      "lat": 35.4722392,
+      "lon": 44.3922668,
+      "tz": "Asia/Baghdad"
+    }
+  ],
+  "Ireland": [
+    {
+      "name": "Dublin",
+      "lat": 53.33306114,
+      "lon": -6.248905682,
+      "tz": "Europe/Dublin"
+    }
+  ],
+  "Israel": [
+    {
+      "name": "Tel Aviv-Yafo",
+      "lat": 32.07999147,
+      "lon": 34.77001176,
+      "tz": "Asia/Jerusalem"
+    },
+    {
+      "name": "Jerusalem",
+      "lat": 31.77840782,
+      "lon": 35.20662593,
+      "tz": "Asia/Jerusalem"
+    },
+    {
+      "name": "Haifa",
+      "lat": 32.8204114,
+      "lon": 34.98002478,
+      "tz": "Asia/Jerusalem"
+    }
+  ],
+  "Italy": [
+    {
+      "name": "Milan",
+      "lat": 45.4699752,
+      "lon": 9.20500891,
+      "tz": "Europe/Rome"
+    },
+    {
+      "name": "Rome",
+      "lat": 41.89595563,
+      "lon": 12.48325842,
+      "tz": "Europe/Rome"
+    },
+    {
+      "name": "Naples",
+      "lat": 40.84002525,
+      "lon": 14.24501135,
+      "tz": "Europe/Rome"
+    },
+    {
+      "name": "Turin",
+      "lat": 45.07038719,
+      "lon": 7.669960489,
+      "tz": "Europe/Rome"
+    },
+    {
+      "name": "Florence",
+      "lat": 43.78000083,
+      "lon": 11.25000036,
+      "tz": "Europe/Rome"
+    },
+    {
+      "name": "Palermo",
+      "lat": 38.12502301,
+      "lon": 13.35002722,
+      "tz": "Europe/Rome"
+    },
+    {
+      "name": "Genoa",
+      "lat": 44.40998822,
+      "lon": 8.930038614,
+      "tz": "Europe/Rome"
+    },
+    {
+      "name": "Salerno",
+      "lat": 40.68039675,
+      "lon": 14.76994055,
+      "tz": "Europe/Rome"
+    }
+  ],
+  "Ivory Coast": [
+    {
+      "name": "Abidjan",
+      "lat": 5.319996967,
+      "lon": -4.04004826,
+      "tz": "Africa/Abidjan"
+    },
+    {
+      "name": "Bouake",
+      "lat": 7.689981505,
+      "lon": -5.030013673,
+      "tz": "Africa/Abidjan"
+    },
+    {
+      "name": "Daloa",
+      "lat": 6.889978657,
+      "lon": -6.450004518,
+      "tz": "Africa/Abidjan"
+    },
+    {
+      "name": "San-Pedro",
+      "lat": 4.77041811,
+      "lon": -6.639967083,
+      "tz": "Africa/Abidjan"
+    },
+    {
+      "name": "Yamoussoukro",
+      "lat": 6.81838096,
+      "lon": -5.275502565,
+      "tz": "Africa/Abidjan"
+    }
+  ],
+  "Jamaica": [
+    {
+      "name": "Kingston",
+      "lat": 17.97707662,
+      "lon": -76.76743371,
+      "tz": "America/Jamaica"
+    },
+    {
+      "name": "Spanish Town",
+      "lat": 17.98333254,
+      "lon": -76.94999068,
+      "tz": "America/Jamaica"
+    }
+  ],
+  "Japan": [
+    {
+      "name": "Tokyo",
+      "lat": 35.68501691,
+      "lon": 139.7514074,
+      "tz": "Asia/Tokyo"
+    },
+    {
+      "name": "Osaka",
+      "lat": 34.75003522,
+      "lon": 135.4601448,
+      "tz": "Asia/Tokyo"
+    },
+    {
+      "name": "Yokohama",
+      "lat": 35.32002626,
+      "lon": 139.5800484,
+      "tz": "Asia/Tokyo"
+    },
+    {
+      "name": "Nagoya",
+      "lat": 35.15499758,
+      "lon": 136.9149914,
+      "tz": "Asia/Tokyo"
+    },
+    {
+      "name": "Sapporo",
+      "lat": 43.07497927,
+      "lon": 141.3400443,
+      "tz": "Asia/Tokyo"
+    },
+    {
+      "name": "Fukuoka",
+      "lat": 33.59501528,
+      "lon": 130.4100138,
+      "tz": "Asia/Tokyo"
+    },
+    {
+      "name": "Sendai",
+      "lat": 38.28710614,
+      "lon": 141.0217175,
+      "tz": "Asia/Tokyo"
+    },
+    {
+      "name": "Kyoto",
+      "lat": 35.02999229,
+      "lon": 135.7499979,
+      "tz": "Asia/Tokyo"
+    }
+  ],
+  "Jordan": [
+    {
+      "name": "Amman",
+      "lat": 31.95002525,
+      "lon": 35.93329993,
+      "tz": "Asia/Amman"
+    },
+    {
+      "name": "Az Zarqa",
+      "lat": 32.06999208,
+      "lon": 36.1000081,
+      "tz": "Asia/Amman"
+    },
+    {
+      "name": "Irbid",
+      "lat": 32.54998863,
+      "lon": 35.84999752,
+      "tz": "Asia/Amman"
+    }
+  ],
+  "Kazakhstan": [
+    {
+      "name": "Almaty",
+      "lat": 43.32498985,
+      "lon": 76.91503617,
+      "tz": "Asia/Almaty"
+    },
+    {
+      "name": "Shymkent",
+      "lat": 42.32001243,
+      "lon": 69.59501786,
+      "tz": "Asia/Almaty"
+    },
+    {
+      "name": "Qaraghandy",
+      "lat": 49.88497703,
+      "lon": 73.11500972,
+      "tz": "Asia/Almaty"
+    },
+    {
+      "name": "Astana",
+      "lat": 51.1811253,
+      "lon": 71.42777421,
+      "tz": "Asia/Almaty"
+    },
+    {
+      "name": "Taraz",
+      "lat": 42.89997703,
+      "lon": 71.36498734,
+      "tz": "Asia/Almaty"
+    },
+    {
+      "name": "Pavlodar",
+      "lat": 52.29999758,
+      "lon": 76.95002112,
+      "tz": "Asia/Almaty"
+    },
+    {
+      "name": "Semey",
+      "lat": 50.43499514,
+      "lon": 80.2750378,
+      "tz": "Asia/Almaty"
+    },
+    {
+      "name": "Oskemen",
+      "lat": 49.99003522,
+      "lon": 82.61494665,
+      "tz": "Asia/Almaty"
+    }
+  ],
+  "Kenya": [
+    {
+      "name": "Nairobi",
+      "lat": -1.283346742,
+      "lon": 36.81665686,
+      "tz": "Africa/Nairobi"
+    },
+    {
+      "name": "Mombasa",
+      "lat": -4.040026022,
+      "lon": 39.68991817,
+      "tz": "Africa/Nairobi"
+    },
+    {
+      "name": "Nakuru",
+      "lat": -0.279997132,
+      "lon": 36.06998409,
+      "tz": "Africa/Nairobi"
+    },
+    {
+      "name": "Kisumu",
+      "lat": -0.090034567,
+      "lon": 34.75001298,
+      "tz": "Africa/Nairobi"
+    },
+    {
+      "name": "Eldoret",
+      "lat": 0.520005716,
+      "lon": 35.26998124,
+      "tz": "Africa/Nairobi"
+    }
+  ],
+  "Kosovo": [
+    {
+      "name": "Pristina",
+      "lat": 42.66670961,
+      "lon": 21.16598425,
+      "tz": "Europe/Belgrade"
+    }
+  ],
+  "Kuwait": [
+    {
+      "name": "Kuwait",
+      "lat": 29.36971763,
+      "lon": 47.97830115,
+      "tz": "Asia/Kuwait"
+    }
+  ],
+  "Kyrgyzstan": [
+    {
+      "name": "Bishkek",
+      "lat": 42.87307945,
+      "lon": 74.58520422,
+      "tz": "Asia/Bishkek"
+    },
+    {
+      "name": "Osh",
+      "lat": 40.54040529,
+      "lon": 72.79001664,
+      "tz": "Asia/Bishkek"
+    }
+  ],
+  "Laos": [
+    {
+      "name": "Vientiane",
+      "lat": 17.96669273,
+      "lon": 102.59998,
+      "tz": "Asia/Vientiane"
+    }
+  ],
+  "Latvia": [
+    {
+      "name": "Riga",
+      "lat": 56.95002382,
+      "lon": 24.09996537,
+      "tz": "Europe/Riga"
+    }
+  ],
+  "Lebanon": [
+    {
+      "name": "Beirut",
+      "lat": 33.87197512,
+      "lon": 35.50970821,
+      "tz": "Asia/Beirut"
+    },
+    {
+      "name": "Trablous",
+      "lat": 34.42000368,
+      "lon": 35.8699963,
+      "tz": "Asia/Beirut"
+    }
+  ],
+  "Lesotho": [
+    {
+      "name": "Maseru",
+      "lat": -29.31667438,
+      "lon": 27.48327307,
+      "tz": "Africa/Maseru"
+    }
+  ],
+  "Liberia": [
+    {
+      "name": "Monrovia",
+      "lat": 6.31055666,
+      "lon": -10.80475163,
+      "tz": "Africa/Monrovia"
+    }
+  ],
+  "Libya": [
+    {
+      "name": "Tripoli",
+      "lat": 32.89250002,
+      "lon": 13.18001176,
+      "tz": "Africa/Tripoli"
+    },
+    {
+      "name": "Banghazi",
+      "lat": 32.11673342,
+      "lon": 20.06672318,
+      "tz": "Africa/Tripoli"
+    },
+    {
+      "name": "Misratah",
+      "lat": 32.37997316,
+      "lon": 15.09999792,
+      "tz": "Africa/Tripoli"
+    }
+  ],
+  "Lithuania": [
+    {
+      "name": "Vilnius",
+      "lat": 54.68336631,
+      "lon": 25.31663529,
+      "tz": "Europe/Vilnius"
+    },
+    {
+      "name": "Kaunas",
+      "lat": 54.95040428,
+      "lon": 23.88003048,
+      "tz": "Europe/Vilnius"
+    }
+  ],
+  "Macau S.A.R": [
+    {
+      "name": "Macau",
+      "lat": 22.20299746,
+      "lon": 113.5450484,
+      "tz": "Asia/Macau"
+    }
+  ],
+  "Macedonia": [
+    {
+      "name": "Skopje",
+      "lat": 42.00000612,
+      "lon": 21.43346147,
+      "tz": "Europe/Skopje"
+    }
+  ],
+  "Madagascar": [
+    {
+      "name": "Antananarivo",
+      "lat": -18.91663735,
+      "lon": 47.5166239,
+      "tz": "Indian/Antananarivo"
+    },
+    {
+      "name": "Antsirabe",
+      "lat": -19.85001707,
+      "lon": 47.03329423,
+      "tz": "Indian/Antananarivo"
+    },
+    {
+      "name": "Toamasina",
+      "lat": -18.18179848,
+      "lon": 49.40498409,
+      "tz": "Indian/Antananarivo"
+    }
+  ],
+  "Malawi": [
+    {
+      "name": "Lilongwe",
+      "lat": -13.98329507,
+      "lon": 33.78330196,
+      "tz": "Africa/Blantyre"
+    },
+    {
+      "name": "Blantyre",
+      "lat": -15.79000649,
+      "lon": 34.98994665,
+      "tz": "Africa/Blantyre"
+    }
+  ],
+  "Malaysia": [
+    {
+      "name": "George Town",
+      "lat": 5.413613156,
+      "lon": 100.3293679,
+      "tz": "Asia/Kuala_Lumpur"
+    },
+    {
+      "name": "Kuala Lumpur",
+      "lat": 3.166665872,
+      "lon": 101.6999833,
+      "tz": "Asia/Kuala_Lumpur"
+    },
+    {
+      "name": "Kelang",
+      "lat": 3.020369892,
+      "lon": 101.5500183,
+      "tz": "Asia/Kuala_Lumpur"
+    },
+    {
+      "name": "Johor Bahru",
+      "lat": 1.480024637,
+      "lon": 103.7300402,
+      "tz": "Asia/Kuala_Lumpur"
+    },
+    {
+      "name": "Ipoh",
+      "lat": 4.599989236,
+      "lon": 101.0649833,
+      "tz": "Asia/Kuala_Lumpur"
+    },
+    {
+      "name": "Malacca",
+      "lat": 2.206414407,
+      "lon": 102.2464615,
+      "tz": "Asia/Kuala_Lumpur"
+    },
+    {
+      "name": "Kuching",
+      "lat": 1.529969909,
+      "lon": 110.3299991,
+      "tz": "Asia/Kuching"
+    },
+    {
+      "name": "Kota Kinabalu",
+      "lat": 5.979982523,
+      "lon": 116.1100081,
+      "tz": "Asia/Kuching"
+    }
+  ],
+  "Mali": [
+    {
+      "name": "Bamako",
+      "lat": 12.65001467,
+      "lon": -8.000039105,
+      "tz": "Africa/Bamako"
+    }
+  ],
+  "Mauritania": [
+    {
+      "name": "Nouakchott",
+      "lat": 18.08642702,
+      "lon": -15.97534041,
+      "tz": "Africa/Nouakchott"
+    }
+  ],
+  "Mauritius": [
+    {
+      "name": "Port Louis",
+      "lat": -20.16663857,
+      "lon": 57.49999385,
+      "tz": "Indian/Mauritius"
+    }
+  ],
+  "Mexico": [
+    {
+      "name": "Mexico City",
+      "lat": 19.44244244,
+      "lon": -99.1309882,
+      "tz": "America/Mexico_City"
+    },
+    {
+      "name": "Guadalajara",
+      "lat": 20.67001609,
+      "lon": -103.3300342,
+      "tz": "America/Mexico_City"
+    },
+    {
+      "name": "Monterrey",
+      "lat": 25.66999514,
+      "lon": -100.3299848,
+      "tz": "America/Monterrey"
+    },
+    {
+      "name": "Puebla",
+      "lat": 19.04995994,
+      "lon": -98.20003727,
+      "tz": "America/Mexico_City"
+    },
+    {
+      "name": "Tijuana",
+      "lat": 32.50001752,
+      "lon": -117.079996,
+      "tz": "America/Tijuana"
+    },
+    {
+      "name": "Ciudad Juárez",
+      "lat": 31.69037701,
+      "lon": -106.4900481,
+      "tz": "America/Ojinaga"
+    },
+    {
+      "name": "Leon",
+      "lat": 21.1499868,
+      "lon": -101.7000304,
+      "tz": "America/Mexico_City"
+    },
+    {
+      "name": "Toluca",
+      "lat": 19.3303821,
+      "lon": -99.66999923,
+      "tz": "America/Mexico_City"
+    }
+  ],
+  "Moldova": [
+    {
+      "name": "Chisinau",
+      "lat": 47.00502362,
+      "lon": 28.85771114,
+      "tz": "Europe/Chisinau"
+    }
+  ],
+  "Mongolia": [
+    {
+      "name": "Ulaanbaatar",
+      "lat": 47.9166734,
+      "lon": 106.9166158,
+      "tz": "Asia/Ulaanbaatar"
+    }
+  ],
+  "Morocco": [
+    {
+      "name": "Casablanca",
+      "lat": 33.59997622,
+      "lon": -7.616367433,
+      "tz": "Africa/Casablanca"
+    },
+    {
+      "name": "Rabat",
+      "lat": 34.02529909,
+      "lon": -6.83613082,
+      "tz": "Africa/Casablanca"
+    },
+    {
+      "name": "Fez",
+      "lat": 34.05459963,
+      "lon": -5.000377239,
+      "tz": "Africa/Casablanca"
+    },
+    {
+      "name": "Marrakesh",
+      "lat": 31.6299931,
+      "lon": -7.999987428,
+      "tz": "Africa/Casablanca"
+    },
+    {
+      "name": "Agadir",
+      "lat": 30.43998822,
+      "lon": -9.620043581,
+      "tz": "Africa/Casablanca"
+    },
+    {
+      "name": "Tangier",
+      "lat": 35.74728701,
+      "lon": -5.832703696,
+      "tz": "Africa/Casablanca"
+    },
+    {
+      "name": "Meknes",
+      "lat": 33.90042299,
+      "lon": -5.559981325,
+      "tz": "Africa/Casablanca"
+    },
+    {
+      "name": "Kenitra",
+      "lat": 34.27040041,
+      "lon": -6.579996583,
+      "tz": "Africa/Casablanca"
+    }
+  ],
+  "Mozambique": [
+    {
+      "name": "Maputo",
+      "lat": -25.95527749,
+      "lon": 32.58916296,
+      "tz": "Africa/Maputo"
+    },
+    {
+      "name": "Beira",
+      "lat": -19.82004474,
+      "lon": 34.87000565,
+      "tz": "Africa/Maputo"
+    },
+    {
+      "name": "Matola",
+      "lat": -25.96959186,
+      "lon": 32.46002356,
+      "tz": "Africa/Maputo"
+    },
+    {
+      "name": "Nampula",
+      "lat": -15.13604124,
+      "lon": 39.29304317,
+      "tz": "Africa/Maputo"
+    },
+    {
+      "name": "Chimoio",
+      "lat": -19.12003579,
+      "lon": 33.47003943,
+      "tz": "Africa/Maputo"
+    },
+    {
+      "name": "Nacala",
+      "lat": -14.51861123,
+      "lon": 40.71502356,
+      "tz": "Africa/Maputo"
+    }
+  ],
+  "Myanmar": [
+    {
+      "name": "Rangoon",
+      "lat": 16.7833541,
+      "lon": 96.16667761,
+      "tz": "Asia/Rangoon"
+    },
+    {
+      "name": "Mandalay",
+      "lat": 21.96998842,
+      "lon": 96.08502885,
+      "tz": "Asia/Rangoon"
+    },
+    {
+      "name": "Naypyidaw",
+      "lat": 19.76655703,
+      "lon": 96.11861853,
+      "tz": "Asia/Rangoon"
+    },
+    {
+      "name": "Mawlamyine",
+      "lat": 16.50042564,
+      "lon": 97.67004838,
+      "tz": "Asia/Rangoon"
+    },
+    {
+      "name": "Bago",
+      "lat": 17.32001385,
+      "lon": 96.51497676,
+      "tz": "Asia/Rangoon"
+    },
+    {
+      "name": "Myeik",
+      "lat": 12.45408347,
+      "lon": 98.61148962,
+      "tz": "Asia/Rangoon"
+    },
+    {
+      "name": "Pathein",
+      "lat": 16.77040916,
+      "lon": 94.74996822,
+      "tz": "Asia/Rangoon"
+    },
+    {
+      "name": "Monywa",
+      "lat": 22.1049931,
+      "lon": 95.14999548,
+      "tz": "Asia/Rangoon"
+    }
+  ],
+  "Namibia": [
+    {
+      "name": "Windhoek",
+      "lat": -22.57000608,
+      "lon": 17.0835461,
+      "tz": "Africa/Windhoek"
+    }
+  ],
+  "Nepal": [
+    {
+      "name": "Kathmandu",
+      "lat": 27.71669191,
+      "lon": 85.31664221,
+      "tz": "Asia/Kathmandu"
+    },
+    {
+      "name": "Pokhara",
+      "lat": 28.26399603,
+      "lon": 83.97199855,
+      "tz": "Asia/Kathmandu"
+    }
+  ],
+  "Netherlands": [
+    {
+      "name": "The Hague",
+      "lat": 52.08003684,
+      "lon": 4.269961302,
+      "tz": "Europe/Amsterdam"
+    },
+    {
+      "name": "Amsterdam",
+      "lat": 52.34996869,
+      "lon": 4.916640176,
+      "tz": "Europe/Amsterdam"
+    },
+    {
+      "name": "Rotterdam",
+      "lat": 51.9199691,
+      "lon": 4.479974323,
+      "tz": "Europe/Amsterdam"
+    },
+    {
+      "name": "Utrecht",
+      "lat": 52.10034568,
+      "lon": 5.120038614,
+      "tz": "Europe/Amsterdam"
+    },
+    {
+      "name": "Eindhoven",
+      "lat": 51.42997316,
+      "lon": 5.50001542,
+      "tz": "Europe/Amsterdam"
+    },
+    {
+      "name": "Haarlem",
+      "lat": 52.38043194,
+      "lon": 4.629991006,
+      "tz": "Europe/Amsterdam"
+    }
+  ],
+  "New Zealand": [
+    {
+      "name": "Auckland",
+      "lat": -36.850013,
+      "lon": 174.7649808,
+      "tz": "Pacific/Auckland"
+    },
+    {
+      "name": "Manukau",
+      "lat": -36.99997801,
+      "lon": 174.8849735,
+      "tz": "Pacific/Auckland"
+    },
+    {
+      "name": "Wellington",
+      "lat": -41.29997394,
+      "lon": 174.7832743,
+      "tz": "Pacific/Auckland"
+    },
+    {
+      "name": "Christchurch",
+      "lat": -43.53503131,
+      "lon": 172.6300207,
+      "tz": "Pacific/Auckland"
+    }
+  ],
+  "Nicaragua": [
+    {
+      "name": "Managua",
+      "lat": 12.15301658,
+      "lon": -86.26849166,
+      "tz": "America/Managua"
+    }
+  ],
+  "Niger": [
+    {
+      "name": "Niamey",
+      "lat": 13.51670595,
+      "lon": 2.116656045,
+      "tz": "Africa/Niamey"
+    },
+    {
+      "name": "Zinder",
+      "lat": 13.79999615,
+      "lon": 8.983317015,
+      "tz": "Africa/Niamey"
+    }
+  ],
+  "Nigeria": [
+    {
+      "name": "Lagos",
+      "lat": 6.443261653,
+      "lon": 3.391531071,
+      "tz": "Africa/Lagos"
+    },
+    {
+      "name": "Kano",
+      "lat": 11.99997683,
+      "lon": 8.5200378,
+      "tz": "Africa/Lagos"
+    },
+    {
+      "name": "Ibadan",
+      "lat": 7.380026264,
+      "lon": 3.929982054,
+      "tz": "Africa/Lagos"
+    },
+    {
+      "name": "Kaduna",
+      "lat": 10.52001548,
+      "lon": 7.440000365,
+      "tz": "Africa/Lagos"
+    },
+    {
+      "name": "Port Harcourt",
+      "lat": 4.810002257,
+      "lon": 7.010000772,
+      "tz": "Africa/Lagos"
+    },
+    {
+      "name": "Benin City",
+      "lat": 6.340477314,
+      "lon": 5.620008096,
+      "tz": "Africa/Lagos"
+    },
+    {
+      "name": "Ikare",
+      "lat": 7.530430521,
+      "lon": 5.759999551,
+      "tz": "Africa/Lagos"
+    },
+    {
+      "name": "Aba",
+      "lat": 5.100397968,
+      "lon": 7.34998002,
+      "tz": "Africa/Lagos"
+    }
+  ],
+  "North Korea": [
+    {
+      "name": "Pyongyang",
+      "lat": 39.0194387,
+      "lon": 125.7546907,
+      "tz": "Asia/Pyongyang"
+    },
+    {
+      "name": "Nampo",
+      "lat": 38.76692078,
+      "lon": 125.4524338,
+      "tz": "Asia/Pyongyang"
+    },
+    {
+      "name": "Hamhung",
+      "lat": 39.91005617,
+      "lon": 127.5454341,
+      "tz": "Asia/Pyongyang"
+    },
+    {
+      "name": "Hungnam",
+      "lat": 39.82313641,
+      "lon": 127.6231555,
+      "tz": "Asia/Pyongyang"
+    },
+    {
+      "name": "Chongjin",
+      "lat": 41.78461875,
+      "lon": 129.79,
+      "tz": "Asia/Pyongyang"
+    },
+    {
+      "name": "Sunchon",
+      "lat": 39.42360008,
+      "lon": 125.9389689,
+      "tz": "Asia/Pyongyang"
+    },
+    {
+      "name": "Wonsan",
+      "lat": 39.16048952,
+      "lon": 127.4308158,
+      "tz": "Asia/Pyongyang"
+    },
+    {
+      "name": "Kaesong",
+      "lat": 37.96399925,
+      "lon": 126.5644087,
+      "tz": "Asia/Pyongyang"
+    }
+  ],
+  "Norway": [
+    {
+      "name": "Oslo",
+      "lat": 59.91669029,
+      "lon": 10.74997921,
+      "tz": "Europe/Oslo"
+    },
+    {
+      "name": "Bergen",
+      "lat": 60.39100242,
+      "lon": 5.324522256,
+      "tz": "Europe/Oslo"
+    }
+  ],
+  "Oman": [
+    {
+      "name": "Muscat",
+      "lat": 23.61332481,
+      "lon": 58.59331213,
+      "tz": "Asia/Muscat"
+    },
+    {
+      "name": "As Sib",
+      "lat": 23.68024579,
+      "lon": 58.18253617,
+      "tz": "Asia/Muscat"
+    }
+  ],
+  "Pakistan": [
+    {
+      "name": "Karachi",
+      "lat": 24.86999229,
+      "lon": 66.99000891,
+      "tz": "Asia/Karachi"
+    },
+    {
+      "name": "Lahore",
+      "lat": 31.55997154,
+      "lon": 74.35002478,
+      "tz": "Asia/Karachi"
+    },
+    {
+      "name": "Faisalabad",
+      "lat": 31.40998069,
+      "lon": 73.10999711,
+      "tz": "Asia/Karachi"
+    },
+    {
+      "name": "Saidu",
+      "lat": 34.75003522,
+      "lon": 72.34999182,
+      "tz": "Asia/Karachi"
+    },
+    {
+      "name": "Rawalpindi",
+      "lat": 33.59997622,
+      "lon": 73.04002722,
+      "tz": "Asia/Karachi"
+    },
+    {
+      "name": "Multan",
+      "lat": 30.19997703,
+      "lon": 71.45500769,
+      "tz": "Asia/Karachi"
+    },
+    {
+      "name": "Gujranwala",
+      "lat": 32.16042584,
+      "lon": 74.18502193,
+      "tz": "Asia/Karachi"
+    },
+    {
+      "name": "Hyderabad",
+      "lat": 25.379987,
+      "lon": 68.37498897,
+      "tz": "Asia/Karachi"
+    }
+  ],
+  "Palestine": [
+    {
+      "name": "Gaza",
+      "lat": 31.52999921,
+      "lon": 34.44501868,
+      "tz": "Asia/Gaza"
+    },
+    {
+      "name": "Al Khalil",
+      "lat": 31.54059287,
+      "lon": 35.09557328,
+      "tz": "Asia/Hebron"
+    }
+  ],
+  "Panama": [
+    {
+      "name": "Panama City",
+      "lat": 8.96801719,
+      "lon": -79.53303715,
+      "tz": "America/Panama"
+    }
+  ],
+  "Papua New Guinea": [
+    {
+      "name": "Port Moresby",
+      "lat": -9.464707826,
+      "lon": 147.1925036,
+      "tz": "Pacific/Port_Moresby"
+    }
+  ],
+  "Paraguay": [
+    {
+      "name": "Asuncion",
+      "lat": -25.29640298,
+      "lon": -57.64150517,
+      "tz": "America/Asuncion"
+    },
+    {
+      "name": "San Lorenzo",
+      "lat": -25.34001788,
+      "lon": -57.52003972,
+      "tz": "America/Asuncion"
+    },
+    {
+      "name": "Ciudad del Este",
+      "lat": -25.51669961,
+      "lon": -54.61605676,
+      "tz": "America/Asuncion"
+    },
+    {
+      "name": "Encarnacion",
+      "lat": -27.34718482,
+      "lon": -55.87391878,
+      "tz": "America/Asuncion"
+    }
+  ],
+  "Peru": [
+    {
+      "name": "Lima",
+      "lat": -12.04801268,
+      "lon": -77.05006209,
+      "tz": "America/Lima"
+    },
+    {
+      "name": "Callao",
+      "lat": -12.07002684,
+      "lon": -77.13496647,
+      "tz": "America/Lima"
+    },
+    {
+      "name": "Arequipa",
+      "lat": -16.41999388,
+      "lon": -71.53001144,
+      "tz": "America/Lima"
+    },
+    {
+      "name": "Chiclayo",
+      "lat": -6.762908916,
+      "lon": -79.83658452,
+      "tz": "America/Lima"
+    },
+    {
+      "name": "Trujillo",
+      "lat": -8.120035381,
+      "lon": -79.01996769,
+      "tz": "America/Lima"
+    },
+    {
+      "name": "Iquitos",
+      "lat": -3.750017884,
+      "lon": -73.25000981,
+      "tz": "America/Lima"
+    },
+    {
+      "name": "Huancayo",
+      "lat": -12.08000039,
+      "lon": -75.20001998,
+      "tz": "America/Lima"
+    },
+    {
+      "name": "Piura",
+      "lat": -5.210032126,
+      "lon": -80.62997278,
+      "tz": "America/Lima"
+    }
+  ],
+  "Philippines": [
+    {
+      "name": "Manila",
+      "lat": 14.60415895,
+      "lon": 120.9822172,
+      "tz": "Asia/Manila"
+    },
+    {
+      "name": "Quezon City",
+      "lat": 14.6504352,
+      "lon": 121.0299662,
+      "tz": "Asia/Manila"
+    },
+    {
+      "name": "Davao",
+      "lat": 7.110016906,
+      "lon": 125.6299955,
+      "tz": "Asia/Manila"
+    },
+    {
+      "name": "Cagayan de Oro",
+      "lat": 8.450839456,
+      "lon": 124.6852986,
+      "tz": "Asia/Manila"
+    },
+    {
+      "name": "Cebu",
+      "lat": 10.31997601,
+      "lon": 123.9000752,
+      "tz": "Asia/Manila"
+    },
+    {
+      "name": "General Santos",
+      "lat": 6.110827249,
+      "lon": 125.1747261,
+      "tz": "Asia/Manila"
+    },
+    {
+      "name": "Bacolod",
+      "lat": 10.63168825,
+      "lon": 122.9816817,
+      "tz": "Asia/Manila"
+    },
+    {
+      "name": "Zamboanga",
+      "lat": 6.919976826,
+      "lon": 122.0800313,
+      "tz": "Asia/Manila"
+    }
+  ],
+  "Poland": [
+    {
+      "name": "Warsaw",
+      "lat": 52.25000063,
+      "lon": 20.99999955,
+      "tz": "Europe/Warsaw"
+    },
+    {
+      "name": "Katowice",
+      "lat": 50.26038047,
+      "lon": 19.02001705,
+      "tz": "Europe/Warsaw"
+    },
+    {
+      "name": "Lódz",
+      "lat": 51.77499086,
+      "lon": 19.45136023,
+      "tz": "Europe/Warsaw"
+    },
+    {
+      "name": "Kraków",
+      "lat": 50.05997927,
+      "lon": 19.96001135,
+      "tz": "Europe/Warsaw"
+    },
+    {
+      "name": "Wroclaw",
+      "lat": 51.11043194,
+      "lon": 17.03000932,
+      "tz": "Europe/Warsaw"
+    },
+    {
+      "name": "Gdansk",
+      "lat": 54.3599752,
+      "lon": 18.64004024,
+      "tz": "Europe/Warsaw"
+    },
+    {
+      "name": "Poznan",
+      "lat": 52.4057534,
+      "lon": 16.89993974,
+      "tz": "Europe/Warsaw"
+    },
+    {
+      "name": "Bytom",
+      "lat": 50.35003908,
+      "lon": 18.90999792,
+      "tz": "Europe/Warsaw"
+    }
+  ],
+  "Portugal": [
+    {
+      "name": "Lisbon",
+      "lat": 38.72272288,
+      "lon": -9.144866305,
+      "tz": "Europe/Lisbon"
+    },
+    {
+      "name": "Porto",
+      "lat": 41.15000633,
+      "lon": -8.620001263,
+      "tz": "Europe/Lisbon"
+    },
+    {
+      "name": "Braga",
+      "lat": 41.55499453,
+      "lon": -8.421331219,
+      "tz": "Europe/Lisbon"
+    }
+  ],
+  "Puerto Rico": [
+    {
+      "name": "San Juan",
+      "lat": 18.44002301,
+      "lon": -66.12997929,
+      "tz": "America/Puerto_Rico"
+    }
+  ],
+  "Qatar": [
+    {
+      "name": "Doha",
+      "lat": 25.28655601,
+      "lon": 51.53296789,
+      "tz": "Asia/Qatar"
+    }
+  ],
+  "Romania": [
+    {
+      "name": "Bucharest",
+      "lat": 44.4333718,
+      "lon": 26.09994665,
+      "tz": "Europe/Bucharest"
+    },
+    {
+      "name": "Iasi",
+      "lat": 47.16834698,
+      "lon": 27.57494706,
+      "tz": "Europe/Bucharest"
+    },
+    {
+      "name": "Timisoara",
+      "lat": 45.75882062,
+      "lon": 21.22344844,
+      "tz": "Europe/Bucharest"
+    },
+    {
+      "name": "Galati",
+      "lat": 45.45589337,
+      "lon": 28.04587439,
+      "tz": "Europe/Bucharest"
+    },
+    {
+      "name": "Craiova",
+      "lat": 44.3262724,
+      "lon": 23.82587357,
+      "tz": "Europe/Bucharest"
+    },
+    {
+      "name": "Cluj-Napoca",
+      "lat": 46.78842185,
+      "lon": 23.5984456,
+      "tz": "Europe/Bucharest"
+    },
+    {
+      "name": "Brasov",
+      "lat": 45.64753542,
+      "lon": 25.6071602,
+      "tz": "Europe/Bucharest"
+    },
+    {
+      "name": "Constanta",
+      "lat": 44.20266237,
+      "lon": 28.60997432,
+      "tz": "Europe/Bucharest"
+    }
+  ],
+  "Russia": [
+    {
+      "name": "Moscow",
+      "lat": 55.75216412,
+      "lon": 37.61552283,
+      "tz": "Europe/Moscow"
+    },
+    {
+      "name": "St. Petersburg",
+      "lat": 59.93901451,
+      "lon": 30.31602006,
+      "tz": "Europe/Moscow"
+    },
+    {
+      "name": "Yekaterinburg",
+      "lat": 56.85002993,
+      "lon": 60.59995967,
+      "tz": "Asia/Yekaterinburg"
+    },
+    {
+      "name": "Nizhny Novgorod",
+      "lat": 56.33300722,
+      "lon": 44.00009436,
+      "tz": "Europe/Moscow"
+    },
+    {
+      "name": "Novosibirsk",
+      "lat": 55.02996014,
+      "lon": 82.96004187,
+      "tz": "Asia/Novosibirsk"
+    },
+    {
+      "name": "Omsk",
+      "lat": 54.98998842,
+      "lon": 73.39995357,
+      "tz": "Asia/Omsk"
+    },
+    {
+      "name": "Rostov",
+      "lat": 47.23464785,
+      "lon": 39.7126558,
+      "tz": "Europe/Moscow"
+    },
+    {
+      "name": "Chelyabinsk",
+      "lat": 55.15499127,
+      "lon": 61.43866817,
+      "tz": "Asia/Yekaterinburg"
+    }
+  ],
+  "Rwanda": [
+    {
+      "name": "Kigali",
+      "lat": -1.953590069,
+      "lon": 30.06053178,
+      "tz": "Africa/Kigali"
+    },
+    {
+      "name": "Nyanza",
+      "lat": -2.349586569,
+      "lon": 29.74003454,
+      "tz": "Africa/Kigali"
+    }
+  ],
+  "Saudi Arabia": [
+    {
+      "name": "Riyadh",
+      "lat": 24.64083315,
+      "lon": 46.77274166,
+      "tz": "Asia/Riyadh"
+    },
+    {
+      "name": "Jeddah",
+      "lat": 21.51688946,
+      "lon": 39.21919755,
+      "tz": "Asia/Riyadh"
+    },
+    {
+      "name": "Ad Damman",
+      "lat": 26.42819175,
+      "lon": 50.09967037,
+      "tz": "Asia/Riyadh"
+    },
+    {
+      "name": "Makkah",
+      "lat": 21.43002138,
+      "lon": 39.82003943,
+      "tz": "Asia/Riyadh"
+    },
+    {
+      "name": "Medina",
+      "lat": 24.49998903,
+      "lon": 39.5800024,
+      "tz": "Asia/Riyadh"
+    },
+    {
+      "name": "Al Hillah",
+      "lat": 23.4894564,
+      "lon": 46.75636023,
+      "tz": "Asia/Riyadh"
+    },
+    {
+      "name": "At Taif",
+      "lat": 21.26222801,
+      "lon": 40.38227901,
+      "tz": "Asia/Riyadh"
+    },
+    {
+      "name": "Al Hufuf",
+      "lat": 25.3487486,
+      "lon": 49.58559322,
+      "tz": "Asia/Riyadh"
+    }
+  ],
+  "Senegal": [
+    {
+      "name": "Dakar",
+      "lat": 14.71583173,
+      "lon": -17.47313013,
+      "tz": "Africa/Dakar"
+    },
+    {
+      "name": "Thies",
+      "lat": 14.8103996,
+      "lon": -16.93001083,
+      "tz": "Africa/Dakar"
+    },
+    {
+      "name": "Kaolack",
+      "lat": 14.14997479,
+      "lon": -16.10000981,
+      "tz": "Africa/Dakar"
+    }
+  ],
+  "Serbia": [
+    {
+      "name": "Belgrade",
+      "lat": 44.81864545,
+      "lon": 20.46799068,
+      "tz": "Europe/Belgrade"
+    },
+    {
+      "name": "Nis",
+      "lat": 43.33041587,
+      "lon": 21.8999963,
+      "tz": "Europe/Belgrade"
+    },
+    {
+      "name": "Novi Sad",
+      "lat": 45.2503762,
+      "lon": 19.84994055,
+      "tz": "Europe/Belgrade"
+    }
+  ],
+  "Sierra Leone": [
+    {
+      "name": "Freetown",
+      "lat": 8.470011412,
+      "lon": -13.23421574,
+      "tz": "Africa/Freetown"
+    }
+  ],
+  "Singapore": [
+    {
+      "name": "Singapore",
+      "lat": 1.293033466,
+      "lon": 103.8558207,
+      "tz": "Asia/Singapore"
+    }
+  ],
+  "Slovakia": [
+    {
+      "name": "Bratislava",
+      "lat": 48.15001833,
+      "lon": 17.11698075,
+      "tz": "Europe/Bratislava"
+    },
+    {
+      "name": "Kosice",
+      "lat": 48.73044802,
+      "lon": 21.25001013,
+      "tz": "Europe/Bratislava"
+    }
+  ],
+  "Slovenia": [
+    {
+      "name": "Ljubljana",
+      "lat": 46.05528831,
+      "lon": 14.51496903,
+      "tz": "Europe/Ljubljana"
+    }
+  ],
+  "Somalia": [
+    {
+      "name": "Mogadishu",
+      "lat": 2.066681334,
+      "lon": 45.36667761,
+      "tz": "Africa/Mogadishu"
+    }
+  ],
+  "Somaliland": [
+    {
+      "name": "Hargeysa",
+      "lat": 9.560022399,
+      "lon": 44.06531002,
+      "tz": "Africa/Mogadishu"
+    }
+  ],
+  "South Africa": [
+    {
+      "name": "Cape Town",
+      "lat": -33.92001097,
+      "lon": 18.43498816,
+      "tz": "Africa/Johannesburg"
+    },
+    {
+      "name": "Johannesburg",
+      "lat": -26.17004474,
+      "lon": 28.03000972,
+      "tz": "Africa/Johannesburg"
+    },
+    {
+      "name": "Durban",
+      "lat": -29.865013,
+      "lon": 30.98001054,
+      "tz": "Africa/Johannesburg"
+    },
+    {
+      "name": "Benoni",
+      "lat": -26.14958087,
+      "lon": 28.32993974,
+      "tz": "Africa/Johannesburg"
+    },
+    {
+      "name": "Pretoria",
+      "lat": -25.70692055,
+      "lon": 28.22942908,
+      "tz": "Africa/Johannesburg"
+    },
+    {
+      "name": "Port Elizabeth",
+      "lat": -33.97003375,
+      "lon": 25.60002885,
+      "tz": "Africa/Johannesburg"
+    },
+    {
+      "name": "Vereeniging",
+      "lat": -26.64960203,
+      "lon": 27.95998816,
+      "tz": "Africa/Johannesburg"
+    },
+    {
+      "name": "Pietermaritzburg",
+      "lat": -29.61004148,
+      "lon": 30.39002071,
+      "tz": "Africa/Johannesburg"
+    }
+  ],
+  "South Korea": [
+    {
+      "name": "Seoul",
+      "lat": 37.5663491,
+      "lon": 126.999731,
+      "tz": "Asia/Seoul"
+    },
+    {
+      "name": "Busan",
+      "lat": 35.09505292,
+      "lon": 129.0100476,
+      "tz": "Asia/Seoul"
+    },
+    {
+      "name": "Incheon",
+      "lat": 37.47614789,
+      "lon": 126.6422334,
+      "tz": "Asia/Seoul"
+    },
+    {
+      "name": "Daegu",
+      "lat": 35.86678876,
+      "lon": 128.6069714,
+      "tz": "Asia/Seoul"
+    },
+    {
+      "name": "Daejeon",
+      "lat": 36.33554567,
+      "lon": 127.425028,
+      "tz": "Asia/Seoul"
+    },
+    {
+      "name": "Gwangju",
+      "lat": 35.1709656,
+      "lon": 126.9104341,
+      "tz": "Asia/Seoul"
+    },
+    {
+      "name": "Changwon",
+      "lat": 35.21910219,
+      "lon": 128.583562,
+      "tz": "Asia/Seoul"
+    },
+    {
+      "name": "Suwon",
+      "lat": 37.25778912,
+      "lon": 127.0108931,
+      "tz": "Asia/Seoul"
+    }
+  ],
+  "Spain": [
+    {
+      "name": "Barcelona",
+      "lat": 41.38329958,
+      "lon": 2.183370319,
+      "tz": "Europe/Madrid"
+    },
+    {
+      "name": "Madrid",
+      "lat": 40.40002626,
+      "lon": -3.683351686,
+      "tz": "Europe/Madrid"
+    },
+    {
+      "name": "Seville",
+      "lat": 37.40501528,
+      "lon": -5.980007366,
+      "tz": "Europe/Madrid"
+    },
+    {
+      "name": "Valencia",
+      "lat": 39.48501752,
+      "lon": -0.400012046,
+      "tz": "Europe/Madrid"
+    },
+    {
+      "name": "Bilbao",
+      "lat": 43.24998151,
+      "lon": -2.929986818,
+      "tz": "Europe/Madrid"
+    },
+    {
+      "name": "Zaragoza",
+      "lat": 41.65000165,
+      "lon": -0.889982138,
+      "tz": "Europe/Madrid"
+    },
+    {
+      "name": "Malaga",
+      "lat": 36.7204059,
+      "lon": -4.419999228,
+      "tz": "Europe/Madrid"
+    },
+    {
+      "name": "Murcia",
+      "lat": 37.9799931,
+      "lon": -1.12996749,
+      "tz": "Europe/Madrid"
+    }
+  ],
+  "Sri Lanka": [
+    {
+      "name": "Colombo",
+      "lat": 6.931965758,
+      "lon": 79.85775061,
+      "tz": "Asia/Colombo"
+    }
+  ],
+  "Sudan": [
+    {
+      "name": "Khartoum",
+      "lat": 15.58807823,
+      "lon": 32.53417924,
+      "tz": "Africa/Khartoum"
+    },
+    {
+      "name": "Omdurman",
+      "lat": 15.61668113,
+      "lon": 32.48002234,
+      "tz": "Africa/Khartoum"
+    },
+    {
+      "name": "Port Sudan",
+      "lat": 19.61579103,
+      "lon": 37.21642574,
+      "tz": "Africa/Khartoum"
+    },
+    {
+      "name": "Niyala",
+      "lat": 12.05997316,
+      "lon": 24.88999467,
+      "tz": "Africa/Khartoum"
+    },
+    {
+      "name": "Kassala",
+      "lat": 15.45997235,
+      "lon": 36.39001623,
+      "tz": "Africa/Khartoum"
+    },
+    {
+      "name": "El Obeid",
+      "lat": 13.18328961,
+      "lon": 30.21669796,
+      "tz": "Africa/Khartoum"
+    },
+    {
+      "name": "Medani",
+      "lat": 14.39995953,
+      "lon": 33.52001054,
+      "tz": "Africa/Khartoum"
+    },
+    {
+      "name": "Kosti",
+      "lat": 13.16998293,
+      "lon": 32.66001135,
+      "tz": "Africa/Khartoum"
+    }
+  ],
+  "Suriname": [
+    {
+      "name": "Paramaribo",
+      "lat": 5.83503013,
+      "lon": -55.16703089,
+      "tz": "America/Paramaribo"
+    }
+  ],
+  "Sweden": [
+    {
+      "name": "Stockholm",
+      "lat": 59.35075995,
+      "lon": 18.09733473,
+      "tz": "Europe/Stockholm"
+    },
+    {
+      "name": "Göteborg",
+      "lat": 57.75000083,
+      "lon": 12.0000321,
+      "tz": "Europe/Stockholm"
+    },
+    {
+      "name": "Malmö",
+      "lat": 55.58333722,
+      "lon": 13.03330237,
+      "tz": "Europe/Stockholm"
+    }
+  ],
+  "Switzerland": [
+    {
+      "name": "Zürich",
+      "lat": 47.37998781,
+      "lon": 8.55001013,
+      "tz": "Europe/Zurich"
+    },
+    {
+      "name": "Geneva",
+      "lat": 46.21000755,
+      "lon": 6.140028034,
+      "tz": "Europe/Zurich"
+    },
+    {
+      "name": "Basel",
+      "lat": 47.58038902,
+      "lon": 7.590017048,
+      "tz": "Europe/Zurich"
+    }
+  ],
+  "Syria": [
+    {
+      "name": "Damascus",
+      "lat": 33.500034,
+      "lon": 36.29999589,
+      "tz": "Asia/Damascus"
+    },
+    {
+      "name": "Aleppo",
+      "lat": 36.22997072,
+      "lon": 37.1700203,
+      "tz": "Asia/Damascus"
+    },
+    {
+      "name": "Hims",
+      "lat": 34.72995892,
+      "lon": 36.72002193,
+      "tz": "Asia/Damascus"
+    },
+    {
+      "name": "Hamah",
+      "lat": 35.1503467,
+      "lon": 36.72999548,
+      "tz": "Asia/Damascus"
+    },
+    {
+      "name": "Al Ladhiqiyah",
+      "lat": 35.539987,
+      "lon": 35.77997595,
+      "tz": "Asia/Damascus"
+    },
+    {
+      "name": "Douma",
+      "lat": 33.5833364,
+      "lon": 36.39998979,
+      "tz": "Asia/Damascus"
+    },
+    {
+      "name": "Dayr az Zawr",
+      "lat": 35.33038739,
+      "lon": 40.12999467,
+      "tz": "Asia/Damascus"
+    }
+  ],
+  "Taiwan": [
+    {
+      "name": "Taipei",
+      "lat": 25.03583333,
+      "lon": 121.5683333,
+      "tz": "Asia/Taipei"
+    },
+    {
+      "name": "New Taipei",
+      "lat": 25.01277778,
+      "lon": 121.465,
+      "tz": "Asia/Taipei"
+    },
+    {
+      "name": "Kaohsiung",
+      "lat": 22.63330711,
+      "lon": 120.2666019,
+      "tz": "Asia/Taipei"
+    },
+    {
+      "name": "Taichung",
+      "lat": 24.15207745,
+      "lon": 120.681667,
+      "tz": "Asia/Taipei"
+    },
+    {
+      "name": "Tainan",
+      "lat": 23.00000307,
+      "lon": 120.2000427,
+      "tz": "Asia/Taipei"
+    },
+    {
+      "name": "Zhongli",
+      "lat": 24.96502525,
+      "lon": 121.2167765,
+      "tz": "Asia/Taipei"
+    },
+    {
+      "name": "Hsinchu",
+      "lat": 24.8167914,
+      "lon": 120.9767395,
+      "tz": "Asia/Taipei"
+    },
+    {
+      "name": "Changhua",
+      "lat": 24.07340008,
+      "lon": 120.5134086,
+      "tz": "Asia/Taipei"
+    }
+  ],
+  "Tajikistan": [
+    {
+      "name": "Dushanbe",
+      "lat": 38.56003522,
+      "lon": 68.77387935,
+      "tz": "Asia/Dushanbe"
+    },
+    {
+      "name": "Khujand",
+      "lat": 40.2899813,
+      "lon": 69.6199259,
+      "tz": "Asia/Dushanbe"
+    }
+  ],
+  "Tanzania": [
+    {
+      "name": "Dar es Salaam",
+      "lat": -6.800012595,
+      "lon": 39.26834184,
+      "tz": "Africa/Dar_es_Salaam"
+    },
+    {
+      "name": "Mwanza",
+      "lat": -2.520015443,
+      "lon": 32.93002071,
+      "tz": "Africa/Dar_es_Salaam"
+    },
+    {
+      "name": "Moshi",
+      "lat": -3.339603659,
+      "lon": 37.33998409,
+      "tz": "Africa/Dar_es_Salaam"
+    },
+    {
+      "name": "Zanzibar",
+      "lat": -6.159999981,
+      "lon": 39.20002559,
+      "tz": "Africa/Dar_es_Salaam"
+    },
+    {
+      "name": "Arusha",
+      "lat": -3.36001585,
+      "lon": 36.66999914,
+      "tz": "Africa/Dar_es_Salaam"
+    },
+    {
+      "name": "Mbeya",
+      "lat": -8.890014222,
+      "lon": 33.43004187,
+      "tz": "Africa/Dar_es_Salaam"
+    },
+    {
+      "name": "Morogoro",
+      "lat": -6.820011374,
+      "lon": 37.66001623,
+      "tz": "Africa/Dar_es_Salaam"
+    },
+    {
+      "name": "Tanga",
+      "lat": -5.070040671,
+      "lon": 39.09000647,
+      "tz": "Africa/Dar_es_Salaam"
+    }
+  ],
+  "Thailand": [
+    {
+      "name": "Bangkok",
+      "lat": 13.74999921,
+      "lon": 100.5166447,
+      "tz": "Asia/Bangkok"
+    },
+    {
+      "name": "Samut Prakan",
+      "lat": 13.60690716,
+      "lon": 100.6114709,
+      "tz": "Asia/Bangkok"
+    },
+    {
+      "name": "Chiang Mai",
+      "lat": 18.7999752,
+      "lon": 98.98004594,
+      "tz": "Asia/Bangkok"
+    },
+    {
+      "name": "Nakhon Ratchasima",
+      "lat": 15.00002626,
+      "lon": 102.1000105,
+      "tz": "Asia/Bangkok"
+    },
+    {
+      "name": "Nonthaburi",
+      "lat": 13.83368919,
+      "lon": 100.4833134,
+      "tz": "Asia/Bangkok"
+    },
+    {
+      "name": "Hat Yai",
+      "lat": 6.996432107,
+      "lon": 100.4714278,
+      "tz": "Asia/Bangkok"
+    },
+    {
+      "name": "Udon Thani",
+      "lat": 17.4047632,
+      "lon": 102.7893225,
+      "tz": "Asia/Bangkok"
+    },
+    {
+      "name": "Chon Buri",
+      "lat": 13.40040814,
+      "lon": 100.9999743,
+      "tz": "Asia/Bangkok"
+    }
+  ],
+  "Togo": [
+    {
+      "name": "Lome",
+      "lat": 6.131937072,
+      "lon": 1.222757119,
+      "tz": "Africa/Lome"
+    }
+  ],
+  "Tunisia": [
+    {
+      "name": "Tunis",
+      "lat": 36.80277814,
+      "lon": 10.1796781,
+      "tz": "Africa/Tunis"
+    },
+    {
+      "name": "Sfax",
+      "lat": 34.75003522,
+      "lon": 10.72000688,
+      "tz": "Africa/Tunis"
+    },
+    {
+      "name": "Sousse",
+      "lat": 35.82999514,
+      "lon": 10.62502559,
+      "tz": "Africa/Tunis"
+    }
+  ],
+  "Turkey": [
+    {
+      "name": "Istanbul",
+      "lat": 41.10499615,
+      "lon": 29.01000159,
+      "tz": "Europe/Istanbul"
+    },
+    {
+      "name": "Ankara",
+      "lat": 39.92723859,
+      "lon": 32.86439164,
+      "tz": "Europe/Istanbul"
+    },
+    {
+      "name": "Izmir",
+      "lat": 38.43614968,
+      "lon": 27.15179401,
+      "tz": "Europe/Istanbul"
+    },
+    {
+      "name": "Bursa",
+      "lat": 40.1999868,
+      "lon": 29.06999792,
+      "tz": "Europe/Istanbul"
+    },
+    {
+      "name": "Adana",
+      "lat": 36.99498863,
+      "lon": 35.32000403,
+      "tz": "Europe/Istanbul"
+    },
+    {
+      "name": "Gaziantep",
+      "lat": 37.07498374,
+      "lon": 37.38499426,
+      "tz": "Europe/Istanbul"
+    },
+    {
+      "name": "Konya",
+      "lat": 37.87501243,
+      "lon": 32.47500972,
+      "tz": "Europe/Istanbul"
+    },
+    {
+      "name": "Antalya",
+      "lat": 36.88998212,
+      "lon": 30.69997595,
+      "tz": "Europe/Istanbul"
+    }
+  ],
+  "Turkmenistan": [
+    {
+      "name": "Ashgabat",
+      "lat": 37.94999493,
+      "lon": 58.38329911,
+      "tz": "Asia/Ashgabat"
+    },
+    {
+      "name": "Turkmenabat",
+      "lat": 39.11000165,
+      "lon": 63.58003617,
+      "tz": "Asia/Ashgabat"
+    }
+  ],
+  "Uganda": [
+    {
+      "name": "Kampala",
+      "lat": 0.316658955,
+      "lon": 32.58332353,
+      "tz": "Africa/Kampala"
+    },
+    {
+      "name": "Mbale",
+      "lat": 1.090410175,
+      "lon": 34.1699967,
+      "tz": "Africa/Kampala"
+    }
+  ],
+  "Ukraine": [
+    {
+      "name": "Kyiv",
+      "lat": 50.43336733,
+      "lon": 30.51662797,
+      "tz": "Europe/Kyiv"
+    },
+    {
+      "name": "Kharkiv",
+      "lat": 49.99998293,
+      "lon": 36.25002478,
+      "tz": "Europe/Kyiv"
+    },
+    {
+      "name": "Dnipropetrovsk",
+      "lat": 48.47997235,
+      "lon": 35.00002356,
+      "tz": "Europe/Kyiv"
+    },
+    {
+      "name": "Donetsk",
+      "lat": 48.00000165,
+      "lon": 37.82998002,
+      "tz": "Europe/Kyiv"
+    },
+    {
+      "name": "Odessa",
+      "lat": 46.4900163,
+      "lon": 30.71000118,
+      "tz": "Europe/Kyiv"
+    },
+    {
+      "name": "Lvov",
+      "lat": 49.83498008,
+      "lon": 24.02999548,
+      "tz": "Europe/Kyiv"
+    },
+    {
+      "name": "Zaporizhzhya",
+      "lat": 47.85729718,
+      "lon": 35.17680863,
+      "tz": "Europe/Zaporozhye"
+    },
+    {
+      "name": "Kryvyy Rih",
+      "lat": 47.92832644,
+      "lon": 33.34498246,
+      "tz": "Europe/Kyiv"
+    }
+  ],
+  "United Arab Emirates": [
+    {
+      "name": "Dubai",
+      "lat": 25.22999615,
+      "lon": 55.27997432,
+      "tz": "Asia/Dubai"
+    },
+    {
+      "name": "Sharjah",
+      "lat": 25.37138287,
+      "lon": 55.40647823,
+      "tz": "Asia/Dubai"
+    },
+    {
+      "name": "Abu Dhabi",
+      "lat": 24.46668357,
+      "lon": 54.36659338,
+      "tz": "Asia/Dubai"
+    },
+    {
+      "name": "Al Ayn",
+      "lat": 24.2304706,
+      "lon": 55.73999792,
+      "tz": "Asia/Dubai"
+    }
+  ],
+  "United Kingdom": [
+    {
+      "name": "London",
+      "lat": 51.49999473,
+      "lon": -0.116721844,
+      "tz": "Europe/London"
+    },
+    {
+      "name": "Birmingham",
+      "lat": 52.47497398,
+      "lon": -1.919996787,
+      "tz": "Europe/London"
+    },
+    {
+      "name": "Manchester",
+      "lat": 53.50041526,
+      "lon": -2.247987103,
+      "tz": "Europe/London"
+    },
+    {
+      "name": "Leeds",
+      "lat": 53.83000755,
+      "lon": -1.580017539,
+      "tz": "Europe/London"
+    },
+    {
+      "name": "Sheffield",
+      "lat": 53.36667666,
+      "lon": -1.499996583,
+      "tz": "Europe/London"
+    },
+    {
+      "name": "Glasgow",
+      "lat": 55.87440472,
+      "lon": -4.250707236,
+      "tz": "Europe/London"
+    },
+    {
+      "name": "Liverpool",
+      "lat": 53.41600181,
+      "lon": -2.917997886,
+      "tz": "Europe/London"
+    },
+    {
+      "name": "Cardiff",
+      "lat": 51.49999473,
+      "lon": -3.22500757,
+      "tz": "Europe/London"
+    }
+  ],
+  "United States of America": [
+    {
+      "name": "New York",
+      "lat": 40.74997906,
+      "lon": -73.98001693,
+      "tz": "America/New_York"
+    },
+    {
+      "name": "Los Angeles",
+      "lat": 33.98997825,
+      "lon": -118.1799805,
+      "tz": "America/Los_Angeles"
+    },
+    {
+      "name": "Chicago",
+      "lat": 41.82999066,
+      "lon": -87.75005497,
+      "tz": "America/Chicago"
+    },
+    {
+      "name": "Houston",
+      "lat": 29.81997438,
+      "lon": -95.33997929,
+      "tz": "America/Chicago"
+    },
+    {
+      "name": "Philadelphia",
+      "lat": 39.99997316,
+      "lon": -75.16999597,
+      "tz": "America/New_York"
+    },
+    {
+      "name": "Dallas",
+      "lat": 32.82002382,
+      "lon": -96.84001693,
+      "tz": "America/Chicago"
+    },
+    {
+      "name": "Miami",
+      "lat": 25.7876107,
+      "lon": -80.22410608,
+      "tz": "America/New_York"
+    },
+    {
+      "name": "Boston",
+      "lat": 42.32996014,
+      "lon": -71.07001367,
+      "tz": "America/New_York"
+    }
+  ],
+  "Uruguay": [
+    {
+      "name": "Montevideo",
+      "lat": -34.85804157,
+      "lon": -56.17105229,
+      "tz": "America/Montevideo"
+    }
+  ],
+  "Uzbekistan": [
+    {
+      "name": "Tashkent",
+      "lat": 41.31170188,
+      "lon": 69.29493282,
+      "tz": "Asia/Tashkent"
+    },
+    {
+      "name": "Samarqand",
+      "lat": 39.67001914,
+      "lon": 66.94499874,
+      "tz": "Asia/Samarkand"
+    },
+    {
+      "name": "Namangan",
+      "lat": 41.00001548,
+      "lon": 71.66998165,
+      "tz": "Asia/Tashkent"
+    },
+    {
+      "name": "Andijon",
+      "lat": 40.79000246,
+      "lon": 72.33996659,
+      "tz": "Asia/Tashkent"
+    },
+    {
+      "name": "Fargona",
+      "lat": 40.3899752,
+      "lon": 71.78000077,
+      "tz": "Asia/Tashkent"
+    },
+    {
+      "name": "Qarshi",
+      "lat": 38.87042971,
+      "lon": 65.80000403,
+      "tz": "Asia/Samarkand"
+    },
+    {
+      "name": "Bukhara",
+      "lat": 39.78001243,
+      "lon": 64.43001013,
+      "tz": "Asia/Samarkand"
+    },
+    {
+      "name": "Shahrisabz",
+      "lat": 39.06178754,
+      "lon": 66.83146562,
+      "tz": "Asia/Samarkand"
+    }
+  ],
+  "Venezuela": [
+    {
+      "name": "Caracas",
+      "lat": 10.50099855,
+      "lon": -66.91703719,
+      "tz": "America/Caracas"
+    },
+    {
+      "name": "Maracaibo",
+      "lat": 10.72997683,
+      "lon": -71.65997766,
+      "tz": "America/Caracas"
+    },
+    {
+      "name": "Valencia",
+      "lat": 10.22998151,
+      "lon": -67.9800214,
+      "tz": "America/Caracas"
+    },
+    {
+      "name": "Maracay",
+      "lat": 10.2468797,
+      "lon": -67.59580713,
+      "tz": "America/Caracas"
+    },
+    {
+      "name": "Barquisimeto",
+      "lat": 10.04999249,
+      "lon": -69.29996668,
+      "tz": "America/Caracas"
+    },
+    {
+      "name": "Ciudad Guayana",
+      "lat": 8.370017516,
+      "lon": -62.61998682,
+      "tz": "America/Caracas"
+    },
+    {
+      "name": "Puerto la Cruz",
+      "lat": 10.16995933,
+      "lon": -64.68001612,
+      "tz": "America/Caracas"
+    },
+    {
+      "name": "Barcelona",
+      "lat": 10.13037518,
+      "lon": -64.72001367,
+      "tz": "America/Caracas"
+    }
+  ],
+  "Vietnam": [
+    {
+      "name": "Ho Chi Minh City",
+      "lat": 10.78002545,
+      "lon": 106.6950272,
+      "tz": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "name": "Hanoi",
+      "lat": 21.03332725,
+      "lon": 105.8500142,
+      "tz": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "name": "Haiphong",
+      "lat": 20.83000633,
+      "lon": 106.6800927,
+      "tz": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "name": "Da Nang",
+      "lat": 16.06003908,
+      "lon": 108.2499711,
+      "tz": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "name": "Can Tho",
+      "lat": 10.04999249,
+      "lon": 105.7700191,
+      "tz": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "name": "Bien Hoa",
+      "lat": 10.97001385,
+      "lon": 106.8300577,
+      "tz": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "name": "Hue",
+      "lat": 16.46998822,
+      "lon": 107.5800378,
+      "tz": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "name": "Qui Nhon",
+      "lat": 13.77997154,
+      "lon": 109.1800435,
+      "tz": "Asia/Ho_Chi_Minh"
+    }
+  ],
+  "Yemen": [
+    {
+      "name": "Sanaa",
+      "lat": 15.3547333,
+      "lon": 44.20659338,
+      "tz": "Asia/Aden"
+    },
+    {
+      "name": "Aden",
+      "lat": 12.77972251,
+      "lon": 45.00949011,
+      "tz": "Asia/Aden"
+    },
+    {
+      "name": "Taizz",
+      "lat": 13.60445253,
+      "lon": 44.03942012,
+      "tz": "Asia/Aden"
+    },
+    {
+      "name": "Al Hudaydah",
+      "lat": 14.79794558,
+      "lon": 42.95297481,
+      "tz": "Asia/Aden"
+    },
+    {
+      "name": "Ibb",
+      "lat": 13.97585105,
+      "lon": 44.17088497,
+      "tz": "Asia/Aden"
+    }
+  ],
+  "Zambia": [
+    {
+      "name": "Lusaka",
+      "lat": -15.41664427,
+      "lon": 28.28332759,
+      "tz": "Africa/Lusaka"
+    },
+    {
+      "name": "Kitwe",
+      "lat": -12.81003335,
+      "lon": 28.22002397,
+      "tz": "Africa/Lusaka"
+    },
+    {
+      "name": "Ndola",
+      "lat": -12.99994424,
+      "lon": 28.65002356,
+      "tz": "Africa/Lusaka"
+    }
+  ],
+  "Zimbabwe": [
+    {
+      "name": "Harare",
+      "lat": -17.81778969,
+      "lon": 31.04470943,
+      "tz": "Africa/Harare"
+    },
+    {
+      "name": "Bulawayo",
+      "lat": -20.16999754,
+      "lon": 28.58000199,
+      "tz": "Africa/Harare"
+    },
+    {
+      "name": "Chitungwiza",
+      "lat": -18.00000079,
+      "lon": 31.10000321,
+      "tz": "Africa/Harare"
+    },
+    {
+      "name": "Mutare",
+      "lat": -18.97001911,
+      "lon": 32.6500378,
+      "tz": "Africa/Harare"
+    }
+  ]
+}
