@@ -12,7 +12,7 @@ images/
 
 The Agent must create the application from scratch. It receives no original HTML, CSS, JavaScript, tests, package configuration, screenshots, or hidden implementation details.
 
-## Purpose
+## 🎯 Purpose
 
 This is a practical test of an Agent's ability to:
 
@@ -24,7 +24,7 @@ This is a practical test of an Agent's ability to:
 
 Different Agents may choose completely different architectures and designs. The challenge measures the quality and completeness of the result, not whether it reproduces an existing codebase.
 
-## The challenge
+## 🪐 The challenge
 
 The supplied data includes the Sun, planets, dwarf planets, moons, comets, orbital corrections, rotation models, stars, all 88 IAU constellations, deep-sky objects, observing locations, and validation samples.
 
@@ -39,7 +39,7 @@ A strong result may include:
 
 The complete requirements, algorithms, milestones, acceptance checklist, and 100-point evaluation rubric are in [Build.md](./Build.md).
 
-## Reference demo
+## ✨ Reference demo
 
 An existing demonstration of the intended product experience is available here:
 
@@ -47,7 +47,7 @@ An existing demonstration of the intended product experience is available here:
 
 Participants may use the public page as a visual and behavioral reference. The challenge implementation must still be original: do not copy, download, recover, or reverse-engineer the demo's source code.
 
-## How to participate
+## 🚀 How to participate
 
 1. Fork or download this challenge repository.
 2. Give your chosen Agent the repository, with `Build.md`, `data/`, and `images/` as its only starting materials.
@@ -57,7 +57,7 @@ Participants may use the public page as a visual and behavioral reference. The c
 
 For a fair comparison, disclose any extra prompts, manual edits, external files, or intervention given after the initial task.
 
-## Minimum submission information
+## 📋 Minimum submission information
 
 Please include:
 
@@ -69,7 +69,7 @@ Please include:
 - Screenshots or a deployed demo.
 - Known failures and scientific limitations.
 
-## Attribution
+## 💫 Attribution
 
 All completed applications must visibly retain:
 
@@ -79,7 +79,7 @@ Copyright Terry Wan
 
 Participants may add separate implementation credits, but must not imply ownership of Terry Wan's supplied data, images, project concept, or original work.
 
-### Third-party image notice
+### 🖼️ Third-party image notice
 
 Some image and texture assets included with this challenge were collected from publicly available internet sources, including Solar System Scope, NASA, and other astronomy projects, institutions, and individual creators. Copyright and other rights in those third-party materials remain with their respective owners. Their inclusion in this challenge does not transfer ownership to Terry Wan or to challenge participants.
 
